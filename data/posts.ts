@@ -50,8 +50,28 @@ export const posts = [
         releaseDate: "Sep 26, 2025",
         subtitledBy: "ඕෂද එරංග (Era Boy)",
     },
+
     {
         id: 4,
+        slug: "yuva-2024-sinhala-subtitles",
+        title: "Yuva (2024) Sinhala Subtitles : මල්ලවපොර පිටිය ජයගත් ඩිලිවරි කොල්ලා",
+        tags:"Yuva, Yuva Sinhala subtitles, Yuva Sinhala Subtitles 2024, era boy",
+        excerpt: "Yuva movie Sinhala subtitles...",
+        content:
+            "ඉංජිනේරු සිසුවෙක් වුනු යුවා තමන්ගේ පවුල් ප්‍රශ්න විසදමින් තමන්ගේ තහනමට හසුවුණු කබඩි ක්‍රිඩාවේ ඉදිරි ගමන සාක්ෂාත් කරගන්නේ කෙසේද යන්න පිලිබදවයි මේ චිත්‍රපටයේ පෙන්වන්නේ. " +
+            "යුවා රාජ්කුමාර්, සප්තමි ගෞඩා, අච්යුත් කුමාර් වැනි රංගන ශිල්පින් රැසක් රංගනයෙන් දායක වෙනවා.",
+        image: "https://i.ytimg.com/vi/9umBUqn9NeI/sddefault.jpg",
+        video: "WEB-DL",
+        category:"subtitles",
+        language: "Kannada",
+        downloadUrl:
+            "https://drive.google.com/uc?export=download&id=1sWgS2yqkXRzdDZu2hQOQ0ckBBm2kmkgV",
+        releaseDate: "Mar 29, 2024",
+        subtitledBy: "ඕෂද එරංග (Era Boy)",
+    },
+
+    {
+        id: 5,
         slug: "salaar-2023-sinhala-subtitles",
         title: "Salaar (2023) Sinhala Subtitles : සලාර්!",
         tags:"Salaar, Salaar Sinhala subtitles, Salaar Sinhala Subtitles 2023, era boy",
@@ -65,6 +85,23 @@ export const posts = [
         downloadUrl:
             "https://drive.google.com/uc?export=download&id=1Sn1lc7iKmR4tg46PxhwQVTX1wQTbkjwo",
         releaseDate: "Dec 22, 2023",
+        subtitledBy: "ඕෂද එරංග (Era Boy)",
+    },
+    {
+        id: 6,
+        slug: "pindam-2023-sinhala-subtitles",
+        title: "Pindam (2023) Sinhala Subtitles : අවුරුදු 60ක ශාපලත් කලලයේ අභිරහස",
+        tags:"Pindam, Pindam Sinhala subtitles, Pindam Sinhala Subtitles 2023, era boy",
+        excerpt: "Pindam movie Sinhala subtitles...",
+        content:
+            "මේ සිදුවීම සිදුවෙන්නේ 1990 අවුරුද්දේ. එම අවුරුද්දේ සුක්ලාපෙට් වල පදිංචියට ආ එක්තරා ක්‍රිස්තියානු පවුලකට මුහුණ දෙන්න සිදු වූ අද්භූත සිදුවීම් මාලාවක් ගැන තමා මේ චිත්‍රපටයේ දිගහැරෙන්නේ.",
+        image: "https://i.ytimg.com/vi/SGZEJyVMXYg/maxresdefault.jpg",
+        video: "WEB-DL",
+        category:"subtitles",
+        language: "Telegu",
+        downloadUrl:
+            "https://drive.google.com/uc?export=download&id=11zDsKNgHcdP_O058nGQjvOw-Qc3ex3d9",
+        releaseDate: "Dec 15, 2023",
         subtitledBy: "ඕෂද එරංග (Era Boy)",
     },
 ];
