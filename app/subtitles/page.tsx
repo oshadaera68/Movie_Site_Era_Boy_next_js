@@ -6,7 +6,7 @@ import posts from "@/data/posts";
 
 export default function SubtitlesPage() {
   const subtitlePosts = posts.filter(
-    post => post.video === "subtitles"
+    post => post.category === "subtitles"
   );
 
   return (

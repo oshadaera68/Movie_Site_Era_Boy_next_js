@@ -9,6 +9,7 @@ export const posts = [
       "2000 අවුරුද්දට කලින් කේරලේ කෝට්ටයිකෝනම් වල වෙන ජන අරගලයක් විමර්ශනය කරන්න එන කේරල පොලිසියේ විශේෂ ශාඛාවේ වැඩ කරන නිලධාරියෙක් වෙන නාත් නොහොත් ජයක්‍රිශ්නන් මේ අරගලය හට ගන්න හේතු පාදක වුනු කරුණ හොයන්න පටන් ගන්නවා. නමුත් මේක ඉවර වෙන්නේ 'පැන ගියා' කියලා හිතන කාන්තාවන් මරණ දාම ඝාතන රැල්ලකින්. (පස්සේ මේක ටිකක් වෙනස් වෙනවා.) මේකේ අතරමැදි කතාව එයා ඒක හොයාගන්නේ කොහොමද වගේම කවුද මේක කරන්නේ කියලා හොයාගන්න එක..",
     image: "https://i.ytimg.com/vi/LvUnF8oApaM/maxresdefault.jpg",
     video: "CamCopy",
+      category:"subtitles",
     language: "Malayalam",
     downloadUrl:
       "https://drive.google.com/uc?export=download&id=17IPrYGwbNdy2x26Ls8Net5cF1Kg0QzDq",
@@ -25,6 +26,7 @@ export const posts = [
             "ඩොමිනික් කියන්නේ රහස් පරීක්ෂක වරයෙක්. මෙයාට ඉන්නවා සහයක කෙනෙක්, ඒ තමයි විකි නැත්නම් විග්නේෂ්. මේ දෙන්නා අභිරහස් විසදගෙන එද්දී ඩොමිනික්ගේ ගෙදර අයිතිකාරයා ඩොමිනික්ගේ ඇග උඩට පසුම්බියක කතාවක් දානවා.. මෙතනින් එහාට මොකුත් කියන්නෑ කුතුහලය නැති වෙන හින්දා.",
         image: "https://i.ytimg.com/vi/Cnv9cQDKGfU/maxresdefault.jpg",
         video: "WEB-DL",
+        category:"subtitles",
         language: "Malayalam",
         downloadUrl:
             "",
