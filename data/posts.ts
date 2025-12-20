@@ -33,6 +33,24 @@ export const posts = [
         releaseDate: "Jan 23, 2025",
         subtitledBy: "ඕෂද එරංග (Era Boy)",
     },
+
+    {
+        id: 3,
+        slug: "balti-2025-sinhala-subtitles",
+        title: "Balti (2025) Sinhala Subtitles : කබඩිද? මැර බලයද?",
+        tags:"Balti, Balti Sinhala subtitles, Balti Sinhala Subtitles 2025, era boy",
+        excerpt: "KalamKaval movie Sinhala subtitles...",
+        content:
+            "තමිල්නාඩු කේරල ප්‍රාන්ත සිමාවේ පිහිටලා තියෙන වේලම්පාලයම් කියන ගම පාලනය කරන්නේ ප්‍රබල මැරයින් තුන්දෙනෙක්. තරුණ ක්‍රීඩකයින් හතර දෙනෙක් මේ දේවල් වලට ඉක්මනින්ම හසුවෙලා අවසානයේ තමන්ගේ ජීවිතයත්, ආදරය කරන අයත්, එයාලගේ මිතුදම සහ විශ්වාසය අනතුරේ හෙළනවා. මේ අස්සට එනවා තව කෙනෙක්. එතනින් තමයි මේ සෙල්ලම උඩ යටිකුරු වෙන්නේ.. මෙතනින් එහාට මොකක්ද? ඔයාලම බලන්නකෝ..",
+        image: "https://i.ytimg.com/vi/vx-G2Tjocf4/maxresdefault.jpg",
+        video: "CamCopy",
+        category:"subtitles",
+        language: "Malayalam",
+        downloadUrl:
+            "",
+        releaseDate: "Sep 26, 2025",
+        subtitledBy: "ඕෂද එරංග (Era Boy)",
+    },
 ];
 
 export default posts;
