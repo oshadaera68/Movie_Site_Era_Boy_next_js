@@ -9,18 +9,25 @@ import posts from "@/data/posts";
 
 export default function Home() {
     const [searchQuery, setSearchQuery] = useState("");
+    const [selectedFilter, setSelectedFilter] = useState("All");
 
-    // Filter posts based on search query
+    // Get unique languages from posts
+    const languages = ['All', ...Array.from(new Set(posts.map(post => post.language)))];
+
+    // Filter posts based on search query and selected filter
     const filteredPosts = posts.filter((post) => {
         const query = searchQuery.toLowerCase();
-        return (
+        const matchesSearch =
             post.title.toLowerCase().includes(query) ||
             post.content.toLowerCase().includes(query) ||
             post.language.toLowerCase().includes(query) ||
             post.tags.toLowerCase().includes(query) ||
             post.video.toLowerCase().includes(query) ||
-            post.category.toLowerCase().includes(query)
-        );
+            post.category.toLowerCase().includes(query);
+
+        const matchesFilter = selectedFilter === "All" || post.language === selectedFilter;
+
+        return matchesSearch && matchesFilter;
     });
 
     return (
@@ -102,7 +109,7 @@ export default function Home() {
                                             </span>
                                         </div>
                                         <span className="text-gray-500">for</span>
-                                        <span className="text-red-400 font-semibold">&#34;{searchQuery}&#34;</span>
+                                        <span className="text-red-400 font-semibold">&#34;{searchQuery}&ldquo;</span>
                                     </div>
                                 )}
                             </div>
@@ -110,12 +117,22 @@ export default function Home() {
 
                         {/* Filter Pills */}
                         <div className="flex gap-3 overflow-x-auto pb-2 scrollbar-hide">
-                            {['All', 'Malayalam', 'Tamil', 'Hindi', 'English'].map((filter) => (
+                            {languages.map((filter) => (
                                 <button
                                     key={filter}
-                                    className="px-5 py-2 bg-zinc-900/50 hover:bg-gradient-to-r hover:from-red-600 hover:to-yellow-600 text-gray-400 hover:text-white rounded-full text-sm font-medium transition-all duration-300 border border-white/5 hover:border-transparent whitespace-nowrap hover:scale-105 active:scale-95"
+                                    onClick={() => setSelectedFilter(filter)}
+                                    className={`px-5 py-2 rounded-full text-sm font-medium transition-all duration-300 border whitespace-nowrap hover:scale-105 active:scale-95 ${
+                                        selectedFilter === filter
+                                            ? 'bg-gradient-to-r from-red-600 to-yellow-600 text-white border-transparent shadow-lg shadow-red-500/50'
+                                            : 'bg-zinc-900/50 hover:bg-gradient-to-r hover:from-red-600 hover:to-yellow-600 text-gray-400 hover:text-white border-white/5 hover:border-transparent'
+                                    }`}
                                 >
                                     {filter}
+                                    {selectedFilter === filter && (
+                                        <span className="ml-2 inline-flex items-center justify-center w-5 h-5 bg-white/20 rounded-full text-xs">
+                                            ✓
+                                        </span>
+                                    )}
                                 </button>
                             ))}
                         </div>
@@ -162,10 +179,13 @@ export default function Home() {
                                         We couldn&#39;t find any subtitles matching your search
                                     </p>
                                     <button
-                                        onClick={() => setSearchQuery("")}
+                                        onClick={() => {
+                                            setSearchQuery("");
+                                            setSelectedFilter("All");
+                                        }}
                                         className="px-6 py-3 bg-gradient-to-r from-red-600 to-yellow-600 hover:from-red-700 hover:to-yellow-700 text-white font-bold rounded-full transition-all duration-300 transform hover:scale-105 active:scale-95 shadow-lg hover:shadow-red-500/50"
                                     >
-                                        Clear Search
+                                        Clear All Filters
                                     </button>
                                 </div>
                             </div>
