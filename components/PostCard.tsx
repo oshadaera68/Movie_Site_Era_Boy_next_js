@@ -13,6 +13,7 @@ interface Post {
     language: string;
     downloadUrl: string;
     releaseDate: string;
+    subtitledBy: string;
 }
 
 export default function PostCard({ post }: { post: Post }) {
@@ -21,14 +22,14 @@ export default function PostCard({ post }: { post: Post }) {
 
             {/* Image with Red Badge */}
             <div className="relative w-full md:w-80 h-52 flex-shrink-0">
-                <div className="absolute top-3 left-3 z-10 flex items-center gap-1.5 bg-red-600 text-white text-[10px] font-bold px-2 py-1 rounded shadow-lg border-b-2 border-red-800 uppercase">
+                <div className="absolute top-3 left-3 z-10 flex items-center gap-1.5 bg-red-600 text-white text-[10px] font-bold px-2 py-1 rounded shadow-lg uppercase">
                     <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M10 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z" />
                     </svg>
                     {post.language}
                 </div>
 
-                <div className="absolute top-3 left-30 z-10 flex items-center gap-1.5 bg-blue-600 text-white text-[10px] font-bold px-2 py-1 rounded shadow-lg border-b-2 border-red-800 uppercase">
+                <div className="absolute top-3 left-30 z-10 flex items-center gap-1.5 bg-blue-600 text-white text-[10px] font-bold px-2 py-1 rounded shadow-lg uppercase">
                     {post.video}
                 </div>
 

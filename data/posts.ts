@@ -3,7 +3,7 @@ export const posts = [
     id: 1,
     slug: "kalamkaval-2025-sinhala-subtitles",
     title: "KalamKaval (2025) Sinhala Subtitles : ගෑණු මරණ දාම ඝාතකයා",
-      tags:"KalamKaval, KalamKaval Sinhala subtitles, KalamKaval Sinhala Subtitles 2025",
+      tags:"KalamKaval, KalamKaval Sinhala subtitles, KalamKaval Sinhala Subtitles 2025, era boy",
     excerpt: "KalamKaval movie Sinhala subtitles...",
     content:
       "2000 අවුරුද්දට කලින් කේරලේ කෝට්ටයිකෝනම් වල වෙන ජන අරගලයක් විමර්ශනය කරන්න එන කේරල පොලිසියේ විශේෂ ශාඛාවේ වැඩ කරන නිලධාරියෙක් වෙන නාත් නොහොත් ජයක්‍රිශ්නන් මේ අරගලය හට ගන්න හේතු පාදක වුනු කරුණ හොයන්න පටන් ගන්නවා. නමුත් මේක ඉවර වෙන්නේ 'පැන ගියා' කියලා හිතන කාන්තාවන් මරණ දාම ඝාතන රැල්ලකින්. (පස්සේ මේක ටිකක් වෙනස් වෙනවා.) මේකේ අතරමැදි කතාව එයා ඒක හොයාගන්නේ කොහොමද වගේම කවුද මේක කරන්නේ කියලා හොයාගන්න එක..",
@@ -13,7 +13,24 @@ export const posts = [
     downloadUrl:
       "https://drive.google.com/uc?export=download&id=17IPrYGwbNdy2x26Ls8Net5cF1Kg0QzDq",
       releaseDate: "Dec 5, 2025",
+      subtitledBy: "ඕෂද එරංග (Era Boy)",
   },
+    {
+        id: 2,
+        slug: "dominic-and-the-ladies-purse-2025-sinhala-subtitles",
+        title: "Dominic and the ladies purse (2025) Sinhala Subtitles : පසුම්බියේ අභිරහස",
+        tags:"Dominic and the ladies purse, Dominic and the ladies purse Sinhala subtitles, Dominic and the ladies purse Sinhala Subtitles 2025, era boy",
+        excerpt: "KalamKaval movie Sinhala subtitles...",
+        content:
+            "ඩොමිනික් කියන්නේ රහස් පරීක්ෂක වරයෙක්. මෙයාට ඉන්නවා සහයක කෙනෙක්, ඒ තමයි විකි නැත්නම් විග්නේෂ්. මේ දෙන්නා අභිරහස් විසදගෙන එද්දී ඩොමිනික්ගේ ගෙදර අයිතිකාරයා ඩොමිනික්ගේ ඇග උඩට පසුම්බියක කතාවක් දානවා.. මෙතනින් එහාට මොකුත් කියන්නෑ කුතුහලය නැති වෙන හින්දා.",
+        image: "https://i.ytimg.com/vi/Cnv9cQDKGfU/maxresdefault.jpg",
+        video: "WEB-DL",
+        language: "Malayalam",
+        downloadUrl:
+            "",
+        releaseDate: "Jan 23, 2025",
+        subtitledBy: "ඕෂද එරංග (Era Boy)",
+    },
 ];
 
 export default posts;

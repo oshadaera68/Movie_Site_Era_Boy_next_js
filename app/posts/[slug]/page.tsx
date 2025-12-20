@@ -53,7 +53,14 @@ export default async function PostPage({
                             </div>
 
                             <div className="whitespace-pre-line text-gray-300 text-lg leading-relaxed mb-10 font-light">
-                                <h2>Tags:</h2>  {post.tags}
+                                <h2>Tags:</h2> {post.tags}
+                            </div>
+
+                            {/* Styled Section Before Download */}
+                            <div className="mb-8 p-6 bg-black/80 rounded-lg border-t-2 border-b-2 border-red-400 shadow-[0_0_15px_rgba(250,204,21,0.3)]">
+                                <h2 className="text-center text-yellow-400 text-xl md:text-2xl font-bold tracking-wide">
+                                    උපසිරසි ගැන්වීම : {post.subtitledBy}
+                                </h2>
                             </div>
 
                             {/* Download Section */}
@@ -85,7 +92,6 @@ export default async function PostPage({
 
                                 <div className="mt-6 flex justify-center gap-6 text-sm text-gray-500">
                                     <span>File: ZIP / SRT</span>
-                                    <span>Size: 48 KB</span>
                                     <span>Language: Sinhala</span>
                                 </div>
                             </div>
@@ -102,8 +108,7 @@ export default async function PostPage({
                 </div>
             </main>
 
-
-            {/* Footer sits inside the centered container or outside if you want it full width */}
+            {/* Footer */}
             <footer className="mt-20 py-10 border-t border-white/5 text-center text-gray-500 text-sm">
                 <p>&copy; {new Date().getFullYear()} ERA BOY. All Rights Reserved.</p>
             </footer>
