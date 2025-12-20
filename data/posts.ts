@@ -19,7 +19,7 @@ export const posts = [
     {
         id: 2,
         slug: "dominic-and-the-ladies-purse-2025-sinhala-subtitles",
-        title: "Dominic and the ladies purse (2025) Sinhala Subtitles : පසුම්බියේ අභිරහස",
+        title: "Dominic and the ladies purse (2025) Sinhala Subtitles : පසුම්බියෙන් පටන් ගත් අභිරහසක්",
         tags:"Dominic and the ladies purse, Dominic and the ladies purse Sinhala subtitles, Dominic and the ladies purse Sinhala Subtitles 2025, era boy",
         excerpt: "KalamKaval movie Sinhala subtitles...",
         content:
@@ -33,13 +33,12 @@ export const posts = [
         releaseDate: "Jan 23, 2025",
         subtitledBy: "ඕෂද එරංග (Era Boy)",
     },
-
     {
         id: 3,
         slug: "balti-2025-sinhala-subtitles",
         title: "Balti (2025) Sinhala Subtitles : කබඩිද? මැර බලයද?",
         tags:"Balti, Balti Sinhala subtitles, Balti Sinhala Subtitles 2025, era boy",
-        excerpt: "KalamKaval movie Sinhala subtitles...",
+        excerpt: "Balti movie Sinhala subtitles...",
         content:
             "තමිල්නාඩු කේරල ප්‍රාන්ත සිමාවේ පිහිටලා තියෙන වේලම්පාලයම් කියන ගම පාලනය කරන්නේ ප්‍රබල මැරයින් තුන්දෙනෙක්. තරුණ ක්‍රීඩකයින් හතර දෙනෙක් මේ දේවල් වලට ඉක්මනින්ම හසුවෙලා අවසානයේ තමන්ගේ ජීවිතයත්, ආදරය කරන අයත්, එයාලගේ මිතුදම සහ විශ්වාසය අනතුරේ හෙළනවා. මේ අස්සට එනවා තව කෙනෙක්. එතනින් තමයි මේ සෙල්ලම උඩ යටිකුරු වෙන්නේ.. මෙතනින් එහාට මොකක්ද? ඔයාලම බලන්නකෝ..",
         image: "https://i.ytimg.com/vi/vx-G2Tjocf4/maxresdefault.jpg",
@@ -47,8 +46,25 @@ export const posts = [
         category:"subtitles",
         language: "Malayalam",
         downloadUrl:
-            "",
+            "https://drive.google.com/uc?export=download&id=1Kv0zzjaaacqxilDdCtzP424m-wnIv5z1",
         releaseDate: "Sep 26, 2025",
+        subtitledBy: "ඕෂද එරංග (Era Boy)",
+    },
+    {
+        id: 4,
+        slug: "salaar-2023-sinhala-subtitles",
+        title: "Salaar (2023) Sinhala Subtitles : සලාර්!",
+        tags:"Salaar, Salaar Sinhala subtitles, Salaar Sinhala Subtitles 2023, era boy",
+        excerpt: "Salaar movie Sinhala subtitles...",
+        content:
+            "රෙබෙල් ස්ටාර් ප්‍රභාස්, ප්‍රිත්විරාජ් සුකුමාරන් වගේ දක්ෂ රඟන ශිල්පින් රැසක් රංගනයෙන් දායක වූ චිත්‍රපටයක්. කතාව ගත්තොත් මිතුරන් දෙදෙනෙක් හතුරන් වෙන සැටිත්, මේ රාජ්‍යයන් ගැන ඉතිහාසය ගැනත් මේ චිත්‍රපටයේ කියවෙනවා.",
+        image: "https://i.ytimg.com/vi/bUR_FKt7Iso/maxresdefault.jpg",
+        video: "WEB-DL",
+        category:"subtitles",
+        language: "Telegu",
+        downloadUrl:
+            "https://drive.google.com/uc?export=download&id=1Sn1lc7iKmR4tg46PxhwQVTX1wQTbkjwo",
+        releaseDate: "Dec 22, 2023",
         subtitledBy: "ඕෂද එරංග (Era Boy)",
     },
 ];
