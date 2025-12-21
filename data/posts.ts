@@ -17,23 +17,6 @@ export const posts = [
       subtitledBy: "ඕෂද එරංග (Era Boy)",
   },
     {
-        id: 2,
-        slug: "eko-2025-sinhala-subtitles",
-        title: "Eko (2025) Sinhala Subtitles : කුරියච්චන්ගේ බලු පොළ",
-        tags:"Eko, Eko Sinhala subtitles, Eko Sinhala Subtitles 2025, era boy",
-        excerpt: "Eko movie Sinhala subtitles...",
-        content:
-            "මේ Animal ත්‍රිලොජියේ අවසාන චිත්‍රපටය.",
-        image: "https://i.ytimg.com/vi/oG_f1C_xnAE/maxresdefault.jpg",
-        video: "CamCopy",
-        category:"subtitles",
-        language: "Malayalam",
-        downloadUrl:
-            "",
-        releaseDate: "Nov 21, 2025",
-        subtitledBy: "ඕෂද එරංග (Era Boy)",
-    },
-    {
         id: 3,
         slug: "dominic-and-the-ladies-purse-2025-sinhala-subtitles",
         title: "Dominic and the ladies purse (2025) Sinhala Subtitles : පසුම්බියෙන් පටන් ගත් අභිරහසක්",
@@ -119,6 +102,23 @@ export const posts = [
         downloadUrl:
             "https://drive.google.com/uc?export=download&id=11zDsKNgHcdP_O058nGQjvOw-Qc3ex3d9",
         releaseDate: "Dec 15, 2023",
+        subtitledBy: "ඕෂද එරංග (Era Boy)",
+    },
+    {
+        id: 8,
+        slug: "striker-2023-sinhala-subtitles",
+        title: "Striker (2023) Sinhala Subtitles : ආත්ම මාරුව",
+        tags:"Striker, Striker Sinhala subtitles, Striker Sinhala Subtitles 2023, era boy",
+        excerpt: "Striker movie Sinhala subtitles...",
+        content:
+            "මේ චිත්‍රපටයේ වෙන්නේ තමන්ගේ මියගිය පෙම්වතා නැවතත් ගෙන්වන්න ගත් උත්සාහයක් පිලිබදවයි. ජස්ටින් විජේ සහ විද්‍යා ප්‍රදීප් මේ චිත්‍රපටියේ ප්‍රධාන චරිත විදිහට එක් වෙනවා.",
+        image: "https://i.ytimg.com/vi/FgLshk5NeUM/maxresdefault.jpg",
+        video: "WEB-DL",
+        category:"subtitles",
+        language: "Tamil",
+        downloadUrl:
+            "https://drive.google.com/uc?export=download&id=11zDsKNgHcdP_O058nGQjvOw-Qc3ex3d9",
+        releaseDate: "Sep 8, 2023",
         subtitledBy: "ඕෂද එරංග (Era Boy)",
     },
 ];

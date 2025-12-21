@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Navbar from "@/components/Navbar";
 import Sidebar from "@/components/Sidebar";
+import CommentSection from "@/components/CommentSection";
 import Image from "next/image";
 import { posts } from "@/data/posts";
 import { notFound } from "next/navigation";
@@ -224,6 +225,9 @@ export default async function PostPage({
                                 </div>
                             </div>
                         </div>
+
+                        {/* Comment Section */}
+                        <CommentSection postSlug={slug} />
                     </article>
 
                     {/* Sidebar */}
