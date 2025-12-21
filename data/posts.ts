@@ -117,7 +117,7 @@ export const posts = [
         category:"subtitles",
         language: "Tamil",
         downloadUrl:
-            "https://drive.google.com/uc?export=download&id=11zDsKNgHcdP_O058nGQjvOw-Qc3ex3d9",
+            "https://drive.google.com/uc?export=download&id=1oD0tJ7csp7T5VE83U3s95H2Zp_q-VZJ2",
         releaseDate: "Sep 8, 2023",
         subtitledBy: "ඕෂද එරංග (Era Boy)",
     },
