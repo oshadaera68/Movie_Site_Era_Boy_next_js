@@ -19,7 +19,7 @@ export const posts = [
     {
         id: 2,
         slug: "eko-2025-sinhala-subtitles",
-        title: "Eko (2025) Sinhala Subtitles : කුරියච්චන්",
+        title: "Eko (2025) Sinhala Subtitles : කුරියච්චන්ගේ බලු පොළ",
         tags:"Eko, Eko Sinhala subtitles, Eko Sinhala Subtitles 2025, era boy",
         excerpt: "Eko movie Sinhala subtitles...",
         content:
