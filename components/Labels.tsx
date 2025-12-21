@@ -22,7 +22,7 @@ export default function Labels() {
 
     // Build dynamic labels array
     const labels = [
-        { name: "Total Downloads", count: totalDownloads },
+        { name: "All Subtitles", count: totalDownloads },
         ...Object.entries(languageCounts).map(([lang, count]) => ({
             name: lang,
             count: count,
