@@ -18,6 +18,23 @@ export const posts = [
   },
     {
         id: 2,
+        slug: "eko-2025-sinhala-subtitles",
+        title: "Eko (2025) Sinhala Subtitles : කුරියච්චන්",
+        tags:"Eko, Eko Sinhala subtitles, Eko Sinhala Subtitles 2025, era boy",
+        excerpt: "Eko movie Sinhala subtitles...",
+        content:
+            "මේ Animal ත්‍රිලොජියේ අවසාන චිත්‍රපටය.",
+        image: "https://i.ytimg.com/vi/oG_f1C_xnAE/maxresdefault.jpg",
+        video: "CamCopy",
+        category:"subtitles",
+        language: "Malayalam",
+        downloadUrl:
+            "",
+        releaseDate: "Nov 21, 2025",
+        subtitledBy: "ඕෂද එරංග (Era Boy)",
+    },
+    {
+        id: 3,
         slug: "dominic-and-the-ladies-purse-2025-sinhala-subtitles",
         title: "Dominic and the ladies purse (2025) Sinhala Subtitles : පසුම්බියෙන් පටන් ගත් අභිරහසක්",
         tags:"Dominic and the ladies purse, Dominic and the ladies purse Sinhala subtitles, Dominic and the ladies purse Sinhala Subtitles 2025, era boy",
@@ -34,7 +51,7 @@ export const posts = [
         subtitledBy: "ඕෂද එරංග (Era Boy)",
     },
     {
-        id: 3,
+        id: 4,
         slug: "balti-2025-sinhala-subtitles",
         title: "Balti (2025) Sinhala Subtitles : කබඩිද? මැර බලයද?",
         tags:"Balti, Balti Sinhala subtitles, Balti Sinhala Subtitles 2025, era boy",
@@ -52,7 +69,7 @@ export const posts = [
     },
 
     {
-        id: 4,
+        id: 5,
         slug: "yuva-2024-sinhala-subtitles",
         title: "Yuva (2024) Sinhala Subtitles : මල්ලවපොර පිටිය ජයගත් ඩිලිවරි කොල්ලා",
         tags:"Yuva, Yuva Sinhala subtitles, Yuva Sinhala Subtitles 2024, era boy",
@@ -71,7 +88,7 @@ export const posts = [
     },
 
     {
-        id: 5,
+        id: 6,
         slug: "salaar-2023-sinhala-subtitles",
         title: "Salaar (2023) Sinhala Subtitles : සලාර්!",
         tags:"Salaar, Salaar Sinhala subtitles, Salaar Sinhala Subtitles 2023, era boy",
@@ -88,7 +105,7 @@ export const posts = [
         subtitledBy: "ඕෂද එරංග (Era Boy)",
     },
     {
-        id: 6,
+        id: 7,
         slug: "pindam-2023-sinhala-subtitles",
         title: "Pindam (2023) Sinhala Subtitles : අවුරුදු 60ක ශාපලත් කලලයේ අභිරහස",
         tags:"Pindam, Pindam Sinhala subtitles, Pindam Sinhala Subtitles 2023, era boy",
