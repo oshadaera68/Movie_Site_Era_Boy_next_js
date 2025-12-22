@@ -5,10 +5,10 @@ import Navbar from "@/components/Navbar";
 import InfoSideBar from "@/components/InfoSideBar";
 import CommentSection from "@/components/CommentSection";
 import Image from "next/image";
-import { posts } from "@/data/posts";
-import { notFound } from "next/navigation";
+import {posts} from "@/data/posts";
+import {notFound} from "next/navigation";
 import Link from "next/link";
-import { useState, useEffect } from "react";
+import {useEffect, useState} from "react";
 import {Post} from "@/lib/types";
 import PostNavigation from "@/components/PostNavigation";
 
@@ -29,9 +29,7 @@ export default function PostPage({
             setSlug(resolvedSlug);
 
             // Find the post (case-insensitive)
-            const foundPost = posts.find(
-                (p) => p.slug.toLowerCase() === resolvedSlug.toLowerCase()
-            );
+            const foundPost = posts.find((p) => p.slug.toLowerCase() === resolvedSlug.toLowerCase());
 
             // If post not found → 404
             if (!foundPost) {
@@ -97,11 +95,10 @@ export default function PostPage({
     const prevPost = currentIndex > 0 ? posts[currentIndex - 1] : null;
     const nextPost = currentIndex < posts.length - 1 ? posts[currentIndex + 1] : null;
 
-    return (
-        <div className="min-h-screen bg-gradient-to-br from-[#0a0a0a] via-[#0d0d0d] to-[#050505] text-white">
+    return (<div className="min-h-screen bg-gradient-to-br from-[#0a0a0a] via-[#0d0d0d] to-[#050505] text-white">
             {/* Header and Navbar */}
-            <Header />
-            <Navbar />
+            <Header/>
+            <Navbar/>
 
             <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
                 {/* Breadcrumb Navigation */}
@@ -154,13 +151,16 @@ export default function PostPage({
                     <article className="lg:col-span-2 space-y-6">
                         {/* Title Card */}
                         <div className="relative group">
-                            <div className="absolute -inset-1 bg-gradient-to-r from-red-600 via-yellow-500 to-red-600 rounded-2xl blur opacity-25 group-hover:opacity-40 transition duration-500"></div>
-                            <div className="relative bg-zinc-900/80 backdrop-blur-xl border border-white/10 rounded-2xl overflow-hidden shadow-2xl p-6 md:p-8">
+                            <div
+                                className="absolute -inset-1 bg-gradient-to-r from-red-600 via-yellow-500 to-red-600 rounded-2xl blur opacity-25 group-hover:opacity-40 transition duration-500"></div>
+                            <div
+                                className="relative bg-zinc-900/80 backdrop-blur-xl border border-white/10 rounded-2xl overflow-hidden shadow-2xl p-6 md:p-8">
                                 <div className="flex items-start justify-between gap-4 mb-4">
                                     <h1 className="text-2xl md:text-4xl font-black leading-tight bg-gradient-to-r from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">
                                         {post.title}
                                     </h1>
-                                    <div className="flex-shrink-0 px-3 py-1.5 bg-gradient-to-r from-red-600 to-yellow-600 rounded-full text-xs font-bold shadow-lg">
+                                    <div
+                                        className="flex-shrink-0 px-3 py-1.5 bg-gradient-to-r from-red-600 to-yellow-600 rounded-full text-xs font-bold shadow-lg">
                                         {post.language}
                                     </div>
                                 </div>
@@ -205,8 +205,10 @@ export default function PostPage({
 
                         {/* Image Card */}
                         <div className="relative group">
-                            <div className="absolute -inset-1 bg-gradient-to-r from-red-600/30 to-yellow-600/30 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition duration-500"></div>
-                            <div className="relative bg-black/40 backdrop-blur-xl border border-white/10 rounded-2xl overflow-hidden shadow-2xl">
+                            <div
+                                className="absolute -inset-1 bg-gradient-to-r from-red-600/30 to-yellow-600/30 rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition duration-500"></div>
+                            <div
+                                className="relative bg-black/40 backdrop-blur-xl border border-white/10 rounded-2xl overflow-hidden shadow-2xl">
                                 <div className="relative w-full aspect-video">
                                     <Image
                                         src={post.image}
@@ -215,15 +217,18 @@ export default function PostPage({
                                         className="object-cover"
                                         priority
                                     />
-                                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+                                    <div
+                                        className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
                                 </div>
                             </div>
                         </div>
 
                         {/* Content Card */}
                         <div className="relative group">
-                            <div className="absolute -inset-1 bg-gradient-to-r from-red-600/20 to-yellow-600/20 rounded-2xl blur opacity-50"></div>
-                            <div className="relative bg-zinc-900/80 backdrop-blur-xl border border-white/10 rounded-2xl overflow-hidden shadow-2xl p-6 md:p-8">
+                            <div
+                                className="absolute -inset-1 bg-gradient-to-r from-red-600/20 to-yellow-600/20 rounded-2xl blur opacity-50"></div>
+                            <div
+                                className="relative bg-zinc-900/80 backdrop-blur-xl border border-white/10 rounded-2xl overflow-hidden shadow-2xl p-6 md:p-8">
                                 <h2 className="text-xl font-bold text-red-400 mb-4 flex items-center gap-2">
                                     <svg
                                         className="w-5 h-5"
@@ -250,8 +255,10 @@ export default function PostPage({
 
                         {/* Tags Card */}
                         <div className="relative group">
-                            <div className="absolute -inset-1 bg-gradient-to-r from-yellow-600/20 to-red-600/20 rounded-2xl blur opacity-50"></div>
-                            <div className="relative bg-zinc-900/80 backdrop-blur-xl border border-white/10 rounded-2xl overflow-hidden shadow-2xl p-6">
+                            <div
+                                className="absolute -inset-1 bg-gradient-to-r from-yellow-600/20 to-red-600/20 rounded-2xl blur opacity-50"></div>
+                            <div
+                                className="relative bg-zinc-900/80 backdrop-blur-xl border border-white/10 rounded-2xl overflow-hidden shadow-2xl p-6">
                                 <h3 className="text-lg font-bold text-yellow-400 mb-3 flex items-center gap-2">
                                     <svg
                                         className="w-5 h-5"
@@ -269,24 +276,25 @@ export default function PostPage({
                                     Tags
                                 </h3>
                                 <div className="flex flex-wrap gap-2">
-                                    {post.tags.split(",").map((tag: string, index: number) => (
-                                        <span
+                                    {post.tags.split(",").map((tag: string, index: number) => (<span
                                             key={index}
                                             className="px-3 py-1.5 bg-gradient-to-r from-zinc-800 to-zinc-900 hover:from-red-600/20 hover:to-yellow-600/20 border border-white/10 rounded-full text-sm text-gray-300 hover:text-white transition-all duration-300 cursor-pointer hover:scale-105"
                                         >
                       #{tag.trim()}
-                    </span>
-                                    ))}
+                    </span>))}
                                 </div>
                             </div>
                         </div>
 
                         {/* Subtitled By Card */}
                         <div className="relative overflow-hidden">
-                            <div className="absolute inset-0 bg-gradient-to-r from-red-600/10 via-yellow-500/10 to-red-600/10 animate-gradient"></div>
-                            <div className="relative bg-black/90 backdrop-blur-xl border-t-2 border-b-2 border-red-500 rounded-xl p-8 text-center shadow-[0_0_30px_rgba(239,68,68,0.3)]">
+                            <div
+                                className="absolute inset-0 bg-gradient-to-r from-red-600/10 via-yellow-500/10 to-red-600/10 animate-gradient"></div>
+                            <div
+                                className="relative bg-black/90 backdrop-blur-xl border-t-2 border-b-2 border-red-500 rounded-xl p-8 text-center shadow-[0_0_30px_rgba(239,68,68,0.3)]">
                                 <div className="inline-flex items-center gap-3 mb-3">
-                                    <div className="w-12 h-12 bg-gradient-to-r from-red-600 to-yellow-600 rounded-full flex items-center justify-center shadow-lg">
+                                    <div
+                                        className="w-12 h-12 bg-gradient-to-r from-red-600 to-yellow-600 rounded-full flex items-center justify-center shadow-lg">
                                         <svg
                                             className="w-6 h-6 text-white"
                                             fill="none"
@@ -313,12 +321,16 @@ export default function PostPage({
 
                         {/* Download Section */}
                         <div className="relative group">
-                            <div className="absolute -inset-1 bg-gradient-to-r from-red-600 via-yellow-500 to-red-600 rounded-3xl blur-xl opacity-50 group-hover:opacity-75 animate-gradient transition duration-500"></div>
-                            <div className="relative bg-gradient-to-br from-zinc-900 via-black to-zinc-900 backdrop-blur-xl border border-red-500/30 rounded-3xl overflow-hidden shadow-2xl p-8 md:p-12 text-center">
-                                <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_120%,rgba(239,68,68,0.1),transparent)]"></div>
+                            <div
+                                className="absolute -inset-1 bg-gradient-to-r from-red-600 via-yellow-500 to-red-600 rounded-3xl blur-xl opacity-50 group-hover:opacity-75 animate-gradient transition duration-500"></div>
+                            <div
+                                className="relative bg-gradient-to-br from-zinc-900 via-black to-zinc-900 backdrop-blur-xl border border-red-500/30 rounded-3xl overflow-hidden shadow-2xl p-8 md:p-12 text-center">
+                                <div
+                                    className="absolute inset-0 bg-[radial-gradient(circle_at_50%_120%,rgba(239,68,68,0.1),transparent)]"></div>
 
                                 <div className="relative">
-                                    <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-red-600 to-yellow-600 rounded-full mb-6 shadow-lg animate-pulse">
+                                    <div
+                                        className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-red-600 to-yellow-600 rounded-full mb-6 shadow-lg animate-pulse">
                                         <svg
                                             className="w-8 h-8 text-white"
                                             fill="none"
@@ -343,13 +355,14 @@ export default function PostPage({
 
                                     {/* Download Count Display */}
                                     <div className="flex items-center justify-center gap-4 mb-8">
-                                        <div className="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-red-600/20 to-yellow-600/20 border border-red-500/30 rounded-full backdrop-blur-sm">
+                                        <div
+                                            className="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-red-600/20 to-yellow-600/20 border border-red-500/30 rounded-full backdrop-blur-sm">
                                             <svg
                                                 className="w-5 h-5 text-red-400"
                                                 fill="currentColor"
                                                 viewBox="0 0 20 20"
                                             >
-                                                <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
+                                                <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"/>
                                                 <path
                                                     fillRule="evenodd"
                                                     d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z"
@@ -357,7 +370,8 @@ export default function PostPage({
                                                 />
                                             </svg>
                                             <span className="text-gray-300 font-semibold">
-                        <span className="text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-red-400">
+                        <span
+                            className="text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-red-400">
                           {formatDownloadCount(downloadCount)}
                         </span>
                         <span className="text-sm ml-2">downloads</span>
@@ -367,10 +381,9 @@ export default function PostPage({
                                         <button
                                             onClick={handleDownload}
                                             disabled={isDownloading}
-                                            className="inline-flex items-center gap-3 bg-gradient-to-r from-red-600 to-yellow-600 hover:from-red-700 hover:to-yellow-700 text-white font-black text-lg py-5 px-12 rounded-full transition-all duration-300 transform hover:scale-110 active:scale-95 shadow-[0_0_40px_rgba(220,38,38,0.5)] hover:shadow-[0_0_60px_rgba(220,38,38,0.7)] uppercase tracking-wide disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100"
+                                            className="inline-flex items-center gap-3 bg-gradient-to-r from-red-600 to-yellow-600 hover:from-red-700 hover:to-yellow-700 text-white font-black text-lg py-5 px-12 rounded-full transition-all duration-300 transform hover:scale-110 active:scale-95 shadow-[0_0_40px_rgba(220,38,38,0.5)] hover:shadow-[0_0_60px_rgba(220,38,38,0.7)] uppercase tracking-wide disabled:opacity-50 cursor-pointer disabled:hover:scale-100"
                                         >
-                                            {isDownloading ? (
-                                                <>
+                                            {isDownloading ? (<>
                                                     <svg
                                                         className="w-6 h-6 animate-spin"
                                                         fill="none"
@@ -385,9 +398,7 @@ export default function PostPage({
                                                         />
                                                     </svg>
                                                     Downloading...
-                                                </>
-                                            ) : (
-                                                <>
+                                                </>) : (<>
                                                     <svg
                                                         className="w-6 h-6 animate-bounce"
                                                         fill="none"
@@ -402,13 +413,13 @@ export default function PostPage({
                                                         />
                                                     </svg>
                                                     Download Now
-                                                </>
-                                            )}
+                                                </>)}
                                         </button>
                                     </div>
 
                                     <div className="mt-8 flex flex-wrap justify-center gap-4 md:gap-8 text-sm">
-                                        <div className="flex items-center gap-2 px-4 py-2 bg-white/5 rounded-full border border-white/10">
+                                        <div
+                                            className="flex items-center gap-2 px-4 py-2 bg-white/5 rounded-full border border-white/10">
                                             <svg
                                                 className="w-4 h-4 text-yellow-500"
                                                 fill="currentColor"
@@ -424,7 +435,8 @@ export default function PostPage({
                         ZIP / SRT
                       </span>
                                         </div>
-                                        <div className="flex items-center gap-2 px-4 py-2 bg-white/5 rounded-full border border-white/10">
+                                        <div
+                                            className="flex items-center gap-2 px-4 py-2 bg-white/5 rounded-full border border-white/10">
                                             <svg
                                                 className="w-4 h-4 text-green-500"
                                                 fill="currentColor"
@@ -440,7 +452,8 @@ export default function PostPage({
                         Sinhala
                       </span>
                                         </div>
-                                        <div className="flex items-center gap-2 px-4 py-2 bg-white/5 rounded-full border border-white/10">
+                                        <div
+                                            className="flex items-center gap-2 px-4 py-2 bg-white/5 rounded-full border border-white/10">
                                             <svg
                                                 className="w-4 h-4 text-blue-500"
                                                 fill="currentColor"
@@ -462,10 +475,10 @@ export default function PostPage({
                         </div>
 
                         {/* Comment Section */}
-                        <CommentSection postSlug={slug} />
+                        <CommentSection postSlug={slug}/>
 
-
-                        <PostNavigation prevPost={prevPost} nextPost={nextPost} />
+                        {/*Post Navigation*/}
+                        <PostNavigation prevPost={prevPost} nextPost={nextPost}/>
                     </article>
 
                     {/* Sidebar */}
@@ -492,6 +505,5 @@ export default function PostPage({
                     </p>
                 </div>
             </footer>
-        </div>
-    );
+        </div>);
 }
