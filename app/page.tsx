@@ -1,15 +1,19 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import Header from "@/components/Header";
 import Navbar from "@/components/Navbar";
 import PostCard from "@/components/PostCard";
 import Sidebar from "@/components/Sidebar";
+import Pagination from "@/components/Pagination";
 import posts from "@/data/posts";
+
+const POSTS_PER_PAGE = 4;
 
 export default function Home() {
     const [searchQuery, setSearchQuery] = useState("");
     const [selectedFilter, setSelectedFilter] = useState("All");
+    const [currentPage, setCurrentPage] = useState(1);
 
     // Get unique languages from posts
     const languages = ['All', ...Array.from(new Set(posts.map(post => post.language)))];
@@ -29,6 +33,32 @@ export default function Home() {
 
         return matchesSearch && matchesFilter;
     });
+
+    // Calculate pagination
+    const totalPages = Math.ceil(filteredPosts.length / POSTS_PER_PAGE);
+    const startIndex = (currentPage - 1) * POSTS_PER_PAGE;
+    const endIndex = startIndex + POSTS_PER_PAGE;
+    const currentPosts = filteredPosts.slice(startIndex, endIndex);
+
+    const isInitialMount = useRef(true);
+
+    // Reset to page 1 when search or filter changes
+    useEffect(() => {
+        if (!isInitialMount.current) {
+            const timer = setTimeout(() => {
+                setCurrentPage(1);
+            }, 0);
+            return () => clearTimeout(timer);
+        } else {
+            isInitialMount.current = false;
+        }
+    }, [searchQuery, selectedFilter]);
+
+    // Scroll to top when page changes
+    const handlePageChange = (page: number) => {
+        setCurrentPage(page);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
 
     return (
         <div className="min-h-screen bg-gradient-to-br from-[#0a0a0a] via-[#0d0d0d] to-[#050505]">
@@ -109,7 +139,7 @@ export default function Home() {
                                             </span>
                                         </div>
                                         <span className="text-gray-500">for</span>
-                                        <span className="text-red-400 font-semibold">&#34;{searchQuery}&ldquo;</span>
+                                        <span className="text-red-400 font-semibold">&#34;{searchQuery}&#34;</span>
                                     </div>
                                 )}
                             </div>
@@ -138,18 +168,29 @@ export default function Home() {
                         </div>
 
                         {/* Posts Grid */}
-                        {filteredPosts.length > 0 ? (
-                            <div className="space-y-6">
-                                {filteredPosts.map((post, index) => (
-                                    <div
-                                        key={post.id}
-                                        className="animate-fade-in-up"
-                                        style={{ animationDelay: `${index * 0.1}s` }}
-                                    >
-                                        <PostCard post={post} />
-                                    </div>
-                                ))}
-                            </div>
+                        {currentPosts.length > 0 ? (
+                            <>
+                                <div className="space-y-6">
+                                    {currentPosts.map((post, index) => (
+                                        <div
+                                            key={post.id}
+                                            className="animate-fade-in-up"
+                                            style={{ animationDelay: `${index * 0.1}s` }}
+                                        >
+                                            <PostCard post={post} />
+                                        </div>
+                                    ))}
+                                </div>
+
+                                {/* Pagination - Only show if more than one page */}
+                                {totalPages > 1 && (
+                                    <Pagination
+                                        currentPage={currentPage}
+                                        totalPages={totalPages}
+                                        onPageChange={handlePageChange}
+                                    />
+                                )}
+                            </>
                         ) : (
                             <div className="relative group">
                                 <div className="absolute -inset-1 bg-gradient-to-r from-red-600/20 to-yellow-600/20 rounded-2xl blur"></div>
@@ -176,7 +217,7 @@ export default function Home() {
                                         No Results Found
                                     </h3>
                                     <p className="text-gray-600 mb-6">
-                                        We couldn&#39;t find any subtitles matching your search
+                                        We couldn&lsquo;t find any subtitles matching your search
                                     </p>
                                     <button
                                         onClick={() => {

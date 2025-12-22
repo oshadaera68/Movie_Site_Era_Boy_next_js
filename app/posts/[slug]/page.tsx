@@ -2,7 +2,6 @@
 
 import Header from "@/components/Header";
 import Navbar from "@/components/Navbar";
-import Sidebar from "@/components/Sidebar";
 import InfoSideBar from "@/components/InfoSideBar";
 import CommentSection from "@/components/CommentSection";
 import Image from "next/image";
@@ -11,6 +10,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import {Post} from "@/lib/types";
+import PostNavigation from "@/components/PostNavigation";
 
 export default function PostPage({
                                      params,
@@ -92,6 +92,10 @@ export default function PostPage({
     if (!post) {
         return null;
     }
+
+    const currentIndex = posts.findIndex(p => p.slug === slug);
+    const prevPost = currentIndex > 0 ? posts[currentIndex - 1] : null;
+    const nextPost = currentIndex < posts.length - 1 ? posts[currentIndex + 1] : null;
 
     return (
         <div className="min-h-screen bg-gradient-to-br from-[#0a0a0a] via-[#0d0d0d] to-[#050505] text-white">
@@ -459,6 +463,9 @@ export default function PostPage({
 
                         {/* Comment Section */}
                         <CommentSection postSlug={slug} />
+
+
+                        <PostNavigation prevPost={prevPost} nextPost={nextPost} />
                     </article>
 
                     {/* Sidebar */}
