@@ -22,7 +22,7 @@ export default function SubtitlesPage() {
           </div>
 
           {subtitlePosts.map(post => (
-            <PostCard key={post.id} post={post} />
+              <PostCard key={post.id} post={post} />
           ))}
         </section>
 

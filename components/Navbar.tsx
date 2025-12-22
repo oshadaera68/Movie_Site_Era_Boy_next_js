@@ -11,7 +11,6 @@ export default function Navbar() {
     const navItems = [
         { name: "Home", href: "/", icon: "🏠" },
         { name: "Subtitles", href: "/subtitles", icon: "📝" },
-        { name: "Downloads", href: "/downloads", icon: "⬇️" },
     ];
 
     const isActive = (path: string) => pathname === path;

@@ -15,6 +15,9 @@ export const posts = [
       "https://drive.google.com/uc?export=download&id=17IPrYGwbNdy2x26Ls8Net5cF1Kg0QzDq",
       releaseDate: "Dec 5, 2025",
       subtitledBy: "ඕෂද එරංග (Era Boy)",
+      director: "Jithin K Jose",
+      producer: "Mammootty Kampany",
+      cast:"Mammootty, Vinayakan, Rajisha Vijayan, Shruthi Ramachandran, Gibin Gopinath, Aravind S. K."
   },
     {
         id: 3,
