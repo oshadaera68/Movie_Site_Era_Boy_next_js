@@ -6,19 +6,23 @@ import Navbar from "@/components/Navbar";
 import PostCard from "@/components/PostCard";
 import Sidebar from "@/components/Sidebar";
 import Pagination from "@/components/Pagination";
-import posts from "@/data/posts";
+import { posts } from "@/data/posts";
 
 const POSTS_PER_PAGE = 4;
 
 export default function Home() {
     const [searchQuery, setSearchQuery] = useState("");
     const [selectedFilter, setSelectedFilter] = useState("All");
+    const [selectedSiteFilter, setSelectedSiteFilter] = useState("All");
     const [currentPage, setCurrentPage] = useState(1);
 
     // Get unique languages from posts
     const languages = ['All', ...Array.from(new Set(posts.map(post => post.language)))];
 
-    // Filter posts based on search query and selected filter
+    // Get unique subtitle sites from posts
+    const subtitleSites = ['All', ...Array.from(new Set(posts.map(post => post.subtitleSite)))];
+
+    // Filter posts based on search query, language filter, and subtitle site filter
     const filteredPosts = posts.filter((post) => {
         const query = searchQuery.toLowerCase();
         const matchesSearch =
@@ -27,11 +31,13 @@ export default function Home() {
             post.language.toLowerCase().includes(query) ||
             post.tags.toLowerCase().includes(query) ||
             post.video.toLowerCase().includes(query) ||
-            post.category.toLowerCase().includes(query);
+            post.category.toLowerCase().includes(query) ||
+            (post.subtitleSite?.toLowerCase() || '').includes(query);
 
         const matchesFilter = selectedFilter === "All" || post.language === selectedFilter;
+        const matchesSiteFilter = selectedSiteFilter === "All" || post.subtitleSite === selectedSiteFilter;
 
-        return matchesSearch && matchesFilter;
+        return matchesSearch && matchesFilter && matchesSiteFilter;
     });
 
     // Calculate pagination
@@ -52,7 +58,7 @@ export default function Home() {
         } else {
             isInitialMount.current = false;
         }
-    }, [searchQuery, selectedFilter]);
+    }, [searchQuery, selectedFilter, selectedSiteFilter]);
 
     // Scroll to top when page changes
     const handlePageChange = (page: number) => {
@@ -145,26 +151,64 @@ export default function Home() {
                             </div>
                         </div>
 
-                        {/* Filter Pills */}
-                        <div className="flex gap-3 overflow-x-auto pb-2 scrollbar-hide">
-                            {languages.map((filter) => (
-                                <button
-                                    key={filter}
-                                    onClick={() => setSelectedFilter(filter)}
-                                    className={`px-5 py-2 rounded-full text-sm font-medium transition-all duration-300 border whitespace-nowrap hover:scale-105 active:scale-95 ${
-                                        selectedFilter === filter
-                                            ? 'bg-gradient-to-r from-red-600 to-yellow-600 text-white border-transparent shadow-lg shadow-red-500/50'
-                                            : 'bg-zinc-900/50 hover:bg-gradient-to-r hover:from-red-600 hover:to-yellow-600 text-gray-400 hover:text-white border-white/5 hover:border-transparent'
-                                    }`}
-                                >
-                                    {filter}
-                                    {selectedFilter === filter && (
-                                        <span className="ml-2 inline-flex items-center justify-center w-5 h-5 bg-white/20 rounded-full text-xs">
-                                            ✓
-                                        </span>
-                                    )}
-                                </button>
-                            ))}
+                        {/* Language Filter Pills */}
+                        <div>
+                            <h3 className="text-sm font-semibold text-gray-400 mb-3 flex items-center gap-2">
+                                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fillRule="evenodd" d="M7 2a1 1 0 011 1v1h3a1 1 0 110 2H9.578a18.87 18.87 0 01-1.724 4.78c.29.354.596.696.914 1.026a1 1 0 11-1.44 1.389c-.188-.196-.373-.396-.554-.6a19.098 19.098 0 01-3.107 3.567 1 1 0 01-1.334-1.49 17.087 17.087 0 003.13-3.733 18.992 18.992 0 01-1.487-2.494 1 1 0 111.79-.89c.234.47.489.928.764 1.372.417-.934.752-1.913.997-2.927H3a1 1 0 110-2h3V3a1 1 0 011-1zm6 6a1 1 0 01.894.553l2.991 5.982a.869.869 0 01.02.037l.99 1.98a1 1 0 11-1.79.895L15.383 16h-4.764l-.724 1.447a1 1 0 11-1.788-.894l.99-1.98.019-.038 2.99-5.982A1 1 0 0113 8zm-1.382 6h2.764L13 11.236 11.618 14z" clipRule="evenodd"/>
+                                </svg>
+                                Filter by Language
+                            </h3>
+                            <div className="flex gap-3 overflow-x-auto pb-2 scrollbar-hide">
+                                {languages.map((filter) => (
+                                    <button
+                                        key={filter}
+                                        onClick={() => setSelectedFilter(filter)}
+                                        className={`px-5 py-2 rounded-full text-sm font-medium transition-all duration-300 border whitespace-nowrap hover:scale-105 active:scale-95 ${
+                                            selectedFilter === filter
+                                                ? 'bg-gradient-to-r from-red-600 to-yellow-600 text-white border-transparent shadow-lg shadow-red-500/50'
+                                                : 'bg-zinc-900/50 hover:bg-gradient-to-r hover:from-red-600 hover:to-yellow-600 text-gray-400 hover:text-white border-white/5 hover:border-transparent'
+                                        }`}
+                                    >
+                                        {filter}
+                                        {selectedFilter === filter && (
+                                            <span className="ml-2 inline-flex items-center justify-center w-5 h-5 bg-white/20 rounded-full text-xs">
+                                                ✓
+                                            </span>
+                                        )}
+                                    </button>
+                                ))}
+                            </div>
+                        </div>
+
+                        {/* Subtitle Site Filter Pills */}
+                        <div>
+                            <h3 className="text-sm font-semibold text-gray-400 mb-3 flex items-center gap-2">
+                                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fillRule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd"/>
+                                </svg>
+                                Filter by Subtitle Site
+                            </h3>
+                            <div className="flex gap-3 overflow-x-auto pb-2 scrollbar-hide">
+                                {subtitleSites.map((site) => (
+                                    <button
+                                        key={site}
+                                        onClick={() => setSelectedSiteFilter(site || "All")}
+                                        className={`px-5 py-2 rounded-full text-sm font-medium transition-all duration-300 border whitespace-nowrap hover:scale-105 active:scale-95 ${
+                                            selectedSiteFilter === site
+                                                ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white border-transparent shadow-lg shadow-blue-500/50'
+                                                : 'bg-zinc-900/50 hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 text-gray-400 hover:text-white border-white/5 hover:border-transparent'
+                                        }`}
+                                    >
+                                        {site}
+                                        {selectedSiteFilter === site && (
+                                            <span className="ml-2 inline-flex items-center justify-center w-5 h-5 bg-white/20 rounded-full text-xs">
+                                                ✓
+                                            </span>
+                                        )}
+                                    </button>
+                                ))}
+                            </div>
                         </div>
 
                         {/* Posts Grid */}
@@ -223,6 +267,7 @@ export default function Home() {
                                         onClick={() => {
                                             setSearchQuery("");
                                             setSelectedFilter("All");
+                                            setSelectedSiteFilter("All");
                                         }}
                                         className="px-6 py-3 bg-gradient-to-r from-red-600 to-yellow-600 hover:from-red-700 hover:to-yellow-700 text-white font-bold rounded-full transition-all duration-300 transform hover:scale-105 active:scale-95 shadow-lg hover:shadow-red-500/50"
                                     >

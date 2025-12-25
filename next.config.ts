@@ -16,6 +16,10 @@ const nextConfig: NextConfig = {
                 hostname: '**.googleusercontent.com',
             },
             // Add any other image domains you're using
+            {
+                protocol: 'https',
+                hostname: 'encrypted-tbn0.gstatic.com',
+            },
         ],
     },
 };

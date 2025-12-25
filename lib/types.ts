@@ -12,6 +12,7 @@ export interface Post {
   downloadUrl: string;
   releaseDate: string;
   subtitledBy: string;
+  subtitleSite?: string;
   director?: string;
   producer?: string;
   cast?: string;
