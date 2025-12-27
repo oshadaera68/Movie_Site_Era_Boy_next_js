@@ -6,6 +6,7 @@ import Navbar from "@/components/Navbar";
 import PostCard from "@/components/PostCard";
 import Sidebar from "@/components/Sidebar";
 import Pagination from "@/components/Pagination";
+import AddedSubtitles from "@/components/AddedSubtitles";
 import { posts } from "@/data/posts";
 
 const POSTS_PER_PAGE = 4;
@@ -70,6 +71,7 @@ export default function Home() {
         <div className="min-h-screen bg-gradient-to-br from-[#0a0a0a] via-[#0d0d0d] to-[#050505]">
             <Header />
             <Navbar />
+            <AddedSubtitles posts={posts} />
 
             {/* Hero Section with Gradient */}
             <div className="relative overflow-hidden">

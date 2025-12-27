@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import Navbar from "@/components/Navbar";
 import PostCard from "@/components/PostCard";
 import Sidebar from "@/components/Sidebar";
-import posts from "@/data/posts";
+import { posts } from "@/data/posts";
 
 export default function SubtitlesPage() {
   const subtitlePosts = posts.filter(
