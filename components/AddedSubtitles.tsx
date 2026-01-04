@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { useRef } from 'react';
 
 interface Post {
     id: number;
@@ -6,11 +7,10 @@ interface Post {
     video: string;
     language: string;
     category: string;
-    releaseDate: string;
+    date: string;
     content: string;
     tags: string;
     subtitleSite?: string;
-    slug: string;
 }
 
 interface AddedSubtitlesProps {
@@ -18,45 +18,82 @@ interface AddedSubtitlesProps {
 }
 
 export default function AddedSubtitles({ posts }: AddedSubtitlesProps) {
+    const scrollContainerRef = useRef<HTMLDivElement>(null);
+
+    const scroll = (direction: 'left' | 'right') => {
+        if (scrollContainerRef.current) {
+            const scrollAmount = 400;
+            const newScrollLeft = scrollContainerRef.current.scrollLeft + (direction === 'right' ? scrollAmount : -scrollAmount);
+            scrollContainerRef.current.scrollTo({
+                left: newScrollLeft,
+                behavior: 'smooth'
+            });
+        }
+    };
     return (
         <div className="bg-gradient-to-r from-red-950/30 via-zinc-900/50 to-yellow-950/30 border-y border-white/5">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-                <div className="flex items-center gap-3 mb-4">
-                    <div className="flex items-center gap-2">
-                        <div className="w-2 h-2 bg-red-500 rounded-full animate-pulse"></div>
-                        <h2 className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-yellow-400">
-                            Added Subtitles:
+                <div className="flex items-center justify-between mb-4">
+                    <div className="inline-flex items-center bg-gradient-to-r from-yellow-500 to-yellow-600 px-6 py-2 rounded-md">
+                        <h2 className="text-lg font-bold text-black">
+                            අලුතින් උපසිරැසි
                         </h2>
                     </div>
-                    <div className="flex-1 h-px bg-gradient-to-r from-red-500/50 via-transparent to-transparent"></div>
+
+                    {/* Navigation Buttons */}
+                    <div className="flex gap-2">
+                        <button
+                            onClick={() => scroll('left')}
+                            className="group p-2 bg-zinc-800/60 hover:bg-zinc-700/80 border border-white/10 rounded-lg transition-all duration-300"
+                            aria-label="Scroll left"
+                        >
+                            <svg
+                                className="w-5 h-5 text-gray-400 group-hover:text-yellow-400 transition-colors"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                            >
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7" />
+                            </svg>
+                        </button>
+                        <button
+                            onClick={() => scroll('right')}
+                            className="group p-2 bg-zinc-800/60 hover:bg-zinc-700/80 border border-white/10 rounded-lg transition-all duration-300"
+                            aria-label="Scroll right"
+                        >
+                            <svg
+                                className="w-5 h-5 text-gray-400 group-hover:text-yellow-400 transition-colors"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                            >
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+                            </svg>
+                        </button>
+                    </div>
                 </div>
 
-                <div className="flex gap-4 overflow-x-auto pb-2 scrollbar-hide">
+                <div ref={scrollContainerRef} className="flex gap-4 overflow-x-auto pb-2 scrollbar-hide">
                     {posts.slice(0, 8).map((post, index) => (
                         <Link
-                            href={`/post/${post.slug}`}
-                            key={post.slug}
-                            className="group relative flex-shrink-0 w-48 animate-fade-in block"
+                            href={`/post/${post.id}`}
+                            key={post.id}
+                            className="group relative flex-shrink-0 animate-fade-in block"
                             style={{ animationDelay: `${index * 0.05}s` }}
                         >
-                            <div className="absolute -inset-0.5 bg-gradient-to-r from-red-600 to-yellow-600 rounded-lg blur opacity-0 group-hover:opacity-30 transition duration-300"></div>
-                            <div className="relative bg-zinc-900/80 backdrop-blur-sm border border-white/10 rounded-lg p-3 hover:border-red-500/50 transition-all duration-300 cursor-pointer hover:transform hover:scale-105">
-                                <div className="flex items-start gap-2 mb-2">
-                                    <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-red-600 to-yellow-600 rounded flex items-center justify-center text-white text-xs font-bold">
+                            <div className="relative bg-zinc-800/60 backdrop-blur-sm border border-white/5 rounded px-4 py-2 hover:bg-zinc-700/60 transition-all duration-300 cursor-pointer">
+                                <div className="flex items-center gap-3">
+                                    <div className="flex-shrink-0 w-7 h-7 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded flex items-center justify-center text-black text-xs font-bold">
                                         {post.language.slice(0, 2).toUpperCase()}
                                     </div>
                                     <div className="flex-1 min-w-0">
-                                        <h3 className="text-sm font-semibold text-white truncate group-hover:text-red-400 transition-colors">
+                                        <h3 className="text-sm font-medium text-white group-hover:text-yellow-400 transition-colors line-clamp-1">
                                             {post.title}
                                         </h3>
-                                        <p className="text-xs text-gray-500 truncate">{post.video}</p>
                                     </div>
-                                </div>
-                                <div className="flex items-center justify-between text-xs">
-                                    <span className="px-2 py-1 bg-red-500/20 text-red-400 rounded-full border border-red-500/30">
-                                        {post.category}
+                                    <span className="flex-shrink-0 text-xs text-gray-500 font-medium">
+                                        {post.date}
                                     </span>
-                                    <span className="text-gray-600">{post.releaseDate}</span>
                                 </div>
                             </div>
                         </Link>
