@@ -1,4 +1,5 @@
 export const posts = [{
+    date: '2025-01-01',
     id: 1,
     slug: "tribanadhari-barbarik-2025-sinhala-subtitles",
     title: "Tribanadhari Barbarik (2025) Sinhala Subtitles : මිනිබිරිය වෙනුවෙන් දඩයක්කරුවෙක්",

@@ -7,7 +7,7 @@ interface Post {
     video: string;
     language: string;
     category: string;
-    date: string;
+    date?: string;
     content: string;
     tags: string;
     subtitleSite?: string;

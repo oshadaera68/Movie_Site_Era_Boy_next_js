@@ -11,6 +11,7 @@ export interface Post {
   language: string;
   downloadUrl: string;
   releaseDate: string;
+  date?: string; // Made date optional
   subtitledBy: string;
   subtitleSite?: string;
   director?: string;
