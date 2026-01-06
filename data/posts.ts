@@ -2,7 +2,7 @@ export const posts = [
     {
         id: 1,
         slug: "shambhala-2025-sinhala-subtitles",
-        title: "Shambhala: A Mystery World (2025) Sinhala Subtitles : ශම්භාලා ගම්මානයේ අදුරු යක්ෂ ශාපය",
+        title: "Shambhala: A Mystical World (2025) Sinhala Subtitles : ශම්භාලා ගම්මානයේ අදුරු යක්ෂ ශාපය",
         tags: "Shambhala, Shambhala Sinhala subtitles, Shambhala Sinhala Subtitles 2025, Era Boy",
         excerpt: "Shambhala movie Sinhala subtitles...",
         content: "මේ කතාව පාදක වෙන්නේ ශම්භාලා කියන ගමක් ආශ්‍රයෙන්. 1980 අවුරුද්දේ ඇතුලේ ලොකු උල්කාපාතයක් ඒ ගම ලග කඩාගෙන වැටෙනවා. එවලේ ඉදන් අද්භූත දේවල් වෙන්න ගන්නවා. ඔය දේ වෙන අතරවාරයේ ශම්භාලා ගමට අමුත්තෙක් එනවා. ඒ තමයි වික්‍රම්. වික්‍රම් කියන්නේ අමු පහේ මෝඩයෙක්. (මං එහෙම කිව්වේ ඇයි කියලා ෆිල්ම් එක බැලුවම තේරෙයි.) එයා විද්‍යාව ගැන විශ්වාසය තියාගෙන ඉදපු කෙනෙක්. \n" +
