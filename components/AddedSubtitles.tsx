@@ -36,7 +36,7 @@ export default function AddedSubtitles({ posts }: AddedSubtitlesProps) {
                 <div className="flex items-center justify-between mb-4">
                     <div className="inline-flex items-center bg-gradient-to-r from-yellow-500 to-yellow-600 px-6 py-2 rounded-md">
                         <h2 className="text-lg font-bold text-black">
-                            අලුතින් උපසිරැසි
+                            Added Subtitles
                         </h2>
                     </div>
 
