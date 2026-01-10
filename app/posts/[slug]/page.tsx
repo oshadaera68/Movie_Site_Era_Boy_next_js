@@ -165,7 +165,7 @@ export default function PostPage({
                                 </div>
                             </div>
 
-                            {/* Meta Info */}
+                                    {/* Meta Info */}
                             <div className="flex flex-wrap items-center gap-4 text-sm text-gray-400">
                                 <div className="flex items-center gap-2">
                                     <svg
@@ -253,6 +253,8 @@ export default function PostPage({
                         </div>
                     </div>
 
+
+
                     {/* Tags Card */}
                     <div className="relative group">
                         <div
@@ -285,6 +287,17 @@ export default function PostPage({
                             </div>
                         </div>
                     </div>
+
+                    {/* CAM Badge - Industry Standard */}
+                    {post.video?.toLowerCase().includes('cam') && (
+                        <div className="relative group mb-6">
+                            <div className="relative bg-blue-900/20 backdrop-blur-sm border border-blue-500/20 rounded-lg p-3 text-center">
+            <span className="text-blue-300 text-lg font-medium tracking-wide animate-pulse">
+                [මෙය දැනට නිකුත් කල ඇති Cam පිටපතකට කල උපසිරැසි ගැන්වීමකි.]
+            </span>
+                            </div>
+                        </div>
+                    )}
 
                     {/* Subtitled By Card */}
                     <div className="relative overflow-hidden">

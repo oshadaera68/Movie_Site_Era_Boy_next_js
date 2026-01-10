@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { useRef } from 'react';
+import { useRef, useEffect, useState } from 'react';
 
 interface Post {
     id: number;
@@ -81,10 +81,17 @@ export default function AddedSubtitles({ posts }: AddedSubtitlesProps) {
                             className="group relative flex-shrink-0 animate-fade-in block"
                             style={{ animationDelay: `${index * 0.05}s` }}
                         >
-                            <div className="relative bg-zinc-800/60 backdrop-blur-sm border border-white/5 rounded px-4 py-2 hover:bg-zinc-700/60 transition-all duration-300 cursor-pointer">
+                            <div className="relative bg-zinc-800/60 backdrop-blur-sm border border-white/5 rounded px-4 py-2 hover:bg-zinc-700/60 transition-all duration-300 cursor-pointer group/item">
                                 <div className="flex items-center gap-3">
-                                    <div className="flex-shrink-0 w-7 h-7 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded flex items-center justify-center text-black text-xs font-bold">
-                                        {post.language.slice(0, 2).toUpperCase()}
+                                    <div className="relative">
+                                        {post.video?.toLowerCase().includes('cam') && (
+                                            <span className="absolute -top-2 -right-2 bg-red-600 text-white text-[10px] font-bold px-1.5 py-0.5 rounded-full animate-pulse group-hover/item:animate-none group-hover/item:bg-red-500 transition-colors z-10">
+                                                CAM
+                                            </span>
+                                        )}
+                                        <div className="flex-shrink-0 w-7 h-7 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded flex items-center justify-center text-black text-xs font-bold">
+                                            {post.language.slice(0, 2).toUpperCase()}
+                                        </div>
                                     </div>
                                     <div className="flex-1 min-w-0">
                                         <h3 className="text-sm font-medium text-white group-hover:text-yellow-400 transition-colors line-clamp-1">
