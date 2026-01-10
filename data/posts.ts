@@ -14,7 +14,7 @@ export const posts = [
         video: "CamCopy",
         category: "subtitles",
         language: "Telegu",
-        downloadUrl: "https://drive.google.com/uc?export=download&id=1bx6aq0zRML48FmMYGPHmdWmPEHa1pvRX",
+        downloadUrl: "https://drive.google.com/uc?export=download&id=11cipqSJmv3opLRSkGTyFnuaxtUXcNx5e",
         releaseDate: "Dec 25, 2025",
         subtitledBy: "ඕෂද එරංග (Era Boy)",
         subtitleSite: "Baiscope.LK",
