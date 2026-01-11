@@ -1,6 +1,32 @@
 export const posts = [
     {
         id: 1,
+        slug: "eko-2025-sinhala-subtitles",
+        title: "Eko (2025) Sinhala Subtitles : සත්තු රැකබලාගන්නා කුරියච්චන්ගේ කතාව..",
+        tags: "Eko, Eko Sinhala subtitles, Eko Sinhala Subtitles 2025, Ashen Kavindu, Dileepa Madushan",
+        excerpt: "Eko movie Sinhala subtitles...",
+        content: "මලයාලම් සිනමාවෙන් ආපු අලුත්ම, නියම ත්‍රාසජනක ෆිල්ම් එකක් තමයි “Eko” කියන්නෙ. ඔයාලට “Kishkindha Kandam” ෆිල්ම් එක මතක නම්, ඒක හදපු අධ්‍යක්ෂකයි, කතා ලියපු කෙනයි තමයි මේකත් හදලා තියෙන්නෙ. ඉතින් මේකත් නිකන්ම නිකන් ෆිල්ම් එකක් නෙවෙයි, කුතුහලයෙන් බලන්න පුළුවන් නියම කතාවක්.\n" +
+            "\n" +
+            "හිතන්නකො මීදුමෙන් වැහුණු කන්දක්, ඒකෙ නම “කාට්ටුකුන්නු”. ඉස්සර මේ කන්දෙ ජීවත් වෙලා තියෙනවා “කුරියචන්” කියලා මාරම කෲර, බල්ලො පුහුණු කරන මනුස්සයෙක්. මිනිස්සු එයාගෙ නම ඇහුණත් බයයි. හැබැයි, මේ මනුස්සයා දැන් කාලෙක ඉදලා අතුරුදන්.\n" +
+            "කතාව පටන් ගන්නෙ එතනින්. කුරියචන්ගෙන් පලිගන්න ඕන මිනිස්සු තාමත් කන්දට එනවා. එයාව හොයාගෙන එන මේ අයට හම්බවෙන්නෙ කුරියචන්ව නෙවෙයි, එයාගෙ තුන්වෙනි නෝනව. එයාගෙ නම ම්ලාති. කුරියචන් මැලේසියාවෙන් එනකොට තමයි මේ නෝනවයි, දරුණු මැලේසියානු බල්ලො වගයකුයි අරන් ඇවිත් තියෙන්නෙ. මේ නෝනව බලාගන්න “පීයෝස්” කියලා තරුණයෙක්ව නවත්තලා තියෙනවා.\n" +
+            "\n" +
+            "ඉතින් ඔය චරිත ටික වටා තමයි මුළු කතාවම යන්නෙ. කන්ද උඩ තියෙන බල්ලන්ගෙ කෙඳිරිලි සද්දෙ, මීදුම අතරෙ, ටිකෙන් ටික කුරියචන්ගෙ කෲරකම් ගැන ඇත්ත එළියට එනවා. ඒ එක්කම එයාගෙ නෝනගෙ තනිකම, පළිගැනීම් සහ අන්තිමට සොබාදහමෙන්ම යුක්තිය ඉෂ්ට වෙන විදිහ මාර විදිහට මේකෙ පෙන්නනවා.\n" +
+            "\n" +
+            "මේක නිකන්ම කතාවක් නෙවෙයි, අධ්‍යක්ෂකගේ Animal Trilogy එකේ අන්තිම ෆිල්ම් එක. ඒ කියන්නේ සත්තුයි මිනිස්සුයි අතර තියෙන සම්බන්ධය ගැන ගැඹුරට කතා කරන ෆිල්ම් සෙට් එකක කොටසක්.",
+        image: "https://i.ytimg.com/vi/8yAanFW2FsY/maxresdefault.jpg",
+        video: "WEB-DL",
+        category: "subtitles",
+        language: "Malayalam",
+        downloadUrl: "https://drive.google.com/uc?export=download&id=11cipqSJmv3opLRSkGTyFnuaxtUXcNx5e",
+        releaseDate: "Nov 21, 2025",
+        subtitledBy: "අශේන් කවිදු / දිලීප මධුශාන්",
+        subtitleSite: "Zoom.LK",
+        director: "Dinjith Ayyathan",
+        producer: "MRK Jhayaram",
+        cast: "Sandeep Pradeep, Vineeth, Narain, Saurabh Sachdeva, Binu Pappu ,Biana Momin",
+    },
+    {
+        id: 2,
         slug: "shambhala-2025-sinhala-subtitles",
         title: "Shambhala: A Mystical World (2025) Sinhala Subtitles : ශම්භාලා ගම්මානයේ අදුරු යක්ෂ ශාපය",
         tags: "Shambhala, Shambhala Sinhala subtitles, Shambhala Sinhala Subtitles 2025, Era Boy",
@@ -23,7 +49,7 @@ export const posts = [
         cast: "Aadi Saikumar, Swasika Vijay, Ravi Varma, Shiju, Archana Iyer",
     },
     {
-    id: 2,
+    id: 3,
     slug: "tribanadhari-barbarik-2025-sinhala-subtitles",
     title: "Tribanadhari Barbarik (2025) Sinhala Subtitles : මිනිබිරිය වෙනුවෙන් දඩයක්කරුවෙක්",
     tags: "Tribanadhari Barbarik, Tribanadhari Barbarik Sinhala subtitles, Tribanadhari Barbarik Sinhala Subtitles 2025, Era Boy",
@@ -41,7 +67,7 @@ export const posts = [
     producer: "Vijaypal Reddy Adidhala",
     cast: "Sathyaraj, Vasishta N. Simha, Satyam Rajesh, Udaya Bhanu",
 }, {
-    id: 3,
+    id: 4,
     slug: "mass-jathara-2025-sinhala-subtitles",
     title: "Mass Jathara (2025) Sinhala Subtitles : රාජකාරිය අකුරට කරන නිලධාරියෙක්",
     tags: "Mass Jathara, Mass Jathara Sinhala subtitles, Mass Jathara Sinhala Subtitles 2025, Kavishka Sankalpa",
@@ -59,7 +85,7 @@ export const posts = [
     producer: "Naga Vamsi, Sai Sowjanya",
     cast: "Ravi Teja, Sreeleela, Naveen Chandra",
 }, {
-    id: 4,
+    id: 5,
     slug: "hunt-2024-sinhala-subtitles",
     title: "Hunt (2024) Sinhala Subtitles : පලිගැනීමක්, මිනීමැරුමක්, ආත්මයක්",
     tags: "Hunt, Hunt Sinhala subtitles, Hunt Sinhala Subtitles 2024, era boy",
@@ -77,7 +103,7 @@ export const posts = [
     producer: "K. Radhakrishnan",
     cast: "Bhavana, Renji Panicker, Chandhunadh, Dain Davis, Ajmal Ameer, Aditi Ravi",
 }, {
-    id: 5,
+    id: 6,
     slug: "indra-2025-sinhala-subtitles",
     title: "Indra (2025) Sinhala Subtitles : දාම ඝාතකයාගේ පලිගැනීම",
     tags: "Indra, Indra Sinhala subtitles, Indra Sinhala Subtitles 2025, era boy",
@@ -95,7 +121,7 @@ export const posts = [
     producer: "A.R.Jaffer Sadiq, Irfan Malik",
     cast: "Vasanth Ravi, Mehreen Pirzada, Sunil, Rajkumar, Anikha Surendran",
 }, {
-    id: 6,
+    id: 7,
     slug: "turbo-2024-sinhala-subtitles",
     title: "Turbo (2024) Sinhala Subtitles : ටර්බෝ ජෝසේ",
     tags: "Turbo, Turbo Sinhala subtitles, Turbo Sinhala Subtitles 2024, era boy",
@@ -113,7 +139,7 @@ export const posts = [
     producer: "Mammootty Kampany",
     cast: "Mammootty, Raj B. Shetty, Kabir Duhan Singh, Shabareesh Varma, Anjana Jayaprakash, Sunil, Dileesh Pothan, Prasanth Alexander",
 }, {
-    id: 7,
+    id: 8,
     slug: "striker-2023-sinhala-subtitles",
     title: "Striker (2023) Sinhala Subtitles : ආත්ම මාරුව",
     tags: "Striker, Striker Sinhala subtitles, Striker Sinhala Subtitles 2023, era boy",
@@ -131,7 +157,7 @@ export const posts = [
     producer: "Henry David, Justin Vijay",
     cast: "Justin Vijay, Vidya Pradeep, Robert, Kasthuri Shankar, Abhinayashree",
 }, {
-    id: 8,
+    id: 9,
     slug: "pindam-2023-sinhala-subtitles",
     title: "Pindam (2023) Sinhala Subtitles : අවුරුදු 60ක ශාපලත් කලලයේ අභිරහස",
     tags: "Pindam, Pindam Sinhala subtitles, Pindam Sinhala Subtitles 2023, era boy",
@@ -149,7 +175,7 @@ export const posts = [
     producer: "Kalaahi Media, Yeshwanth Daggumati, Prabu Raja",
     cast: "Sriram, Kushee Ravi, Easwari Rao, Srinivas Avasarala",
 }, {
-    id: 9,
+    id: 10,
     slug: "salaar-2023-sinhala-subtitles",
     title: "Salaar (2023) Sinhala Subtitles : සලාර්!",
     tags: "Salaar, Salaar Sinhala subtitles, Salaar Sinhala Subtitles 2023, era boy",
@@ -167,7 +193,7 @@ export const posts = [
     producer: "Vijay Kiragandur",
     cast: "Prabhas, Prithviraj Sukumaran, Bobby Simha, Shruti Haasan, Jagapathi Babu, Sriya Reddy",
 }, {
-    id: 10,
+    id: 11,
     slug: "yuva-2024-sinhala-subtitles",
     title: "Yuva (2024) Sinhala Subtitles : මල්ලවපොර පිටිය ජයගත් ඩිලිවරි කොල්ලා",
     tags: "Yuva, Yuva Sinhala subtitles, Yuva Sinhala Subtitles 2024, era boy",
@@ -185,7 +211,7 @@ export const posts = [
     producer: "Vijay Kiragandur",
     cast: "Yuva Rajkumar, Sapthami Gowda, Achyuth Kumar, Kishore",
 }, {
-    id: 11,
+    id: 12,
     slug: "balti-2025-sinhala-subtitles",
     title: "Balti (2025) Sinhala Subtitles : කබඩිද? මැර බලයද?",
     tags: "Balti, Balti Sinhala subtitles, Balti Sinhala Subtitles 2025, era boy",
@@ -203,7 +229,7 @@ export const posts = [
     producer: "Santhosh T. Kuruvilla, Binu George Alexander",
     cast: "Shane Nigam, Shanthanu Bhagyaraj, Preethi Asrani, Poornima Indrajith, Selvaraghavan, Akshay Radhakrishnan, Shiva Hariharan, Jeckson Johnson",
 }, {
-    id: 12,
+    id: 13,
     slug: "dominic-and-the-ladies-purse-2025-sinhala-subtitles",
     title: "Dominic and the ladies purse (2025) Sinhala Subtitles : පසුම්බියෙන් පටන් ගත් අභිරහසක්",
     tags: "Dominic and the ladies purse, Dominic and the ladies purse Sinhala subtitles, Dominic and the ladies purse Sinhala Subtitles 2025, era boy",
@@ -221,7 +247,7 @@ export const posts = [
     producer: "Mammootty Kampany",
     cast: "Mammootty, Gokul Suresh, Sushmitha Bhat, Sudev Babu, Meenakshi Unnikrishnan, Shine Tom Chacko, Balachandran Chullikkad",
 }, {
-    id: 13,
+    id: 14,
     slug: "kalamkaval-2025-sinhala-subtitles",
     title: "KalamKaval (2025) Sinhala Subtitles : ගෑණු මරණ දාම ඝාතකයා",
     tags: "KalamKaval, KalamKaval Sinhala subtitles, KalamKaval Sinhala Subtitles 2025, era boy",
