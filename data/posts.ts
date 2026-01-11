@@ -17,7 +17,7 @@ export const posts = [
         video: "WEB-DL",
         category: "subtitles",
         language: "Malayalam",
-        downloadUrl: "https://drive.google.com/uc?export=download&id=11cipqSJmv3opLRSkGTyFnuaxtUXcNx5e",
+        downloadUrl: "https://drive.google.com/uc?export=download&id=1Jk9N507XL7dILDgo07HJ721486F8F7MN",
         releaseDate: "Nov 21, 2025",
         subtitledBy: "අශේන් කවිදු / දිලීප මධුශාන්",
         subtitleSite: "Zoom.LK",
