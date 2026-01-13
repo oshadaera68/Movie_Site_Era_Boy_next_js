@@ -4,7 +4,7 @@ export const posts = [
     slug: "sirai-2025-sinhala-subtitles",
     title: "Sirai (2025) Sinhala Subtitles : සිරකරුවා..",
     tags: "Sirai, Sirai Sinhala subtitles, Sirai Sinhala Subtitles 2025, Peter Barthlet",
-    excerpt: "Sirai movie Sinhala subtitles...",
+    excerpt: "Sirai movie Sinhala subtitles..",
     content:
       "මේකේ කතාවණම් එහේම කියන්න පුළුවන් එකක් නෙවෙයි. ඒක බලන්නම ඕන එකක්. මම කියන මේ ටිකෙන් චිත්‍රපටය ගැන හිතාගන්න බෑ. අපිව එක එක දිශාවන්ට රැගෙන ගියත් මේක හෙන කූල් ෆීල් මූවි එකක්. කදිරවන් (වික්‍රම් ප්‍රභූ) පොලිස් සැරයන් වරයෙක් දක්ෂ වෙඩික්කරුවෙක්. මෙයාගේ රාජකාරිය තමයි උසාවිවලට බන්ධනාගාරයෙන් චූදිතයන්ව රැගෙන යන එක. ඈත තියෙන උසාවිවලට එක්කන් යන්න පාවිච්චි කරන්නේ පොදු ප්‍රවහන සේවය. මේ වගේ එක දවසක් කදිර්ට අබ්දුල්ව ( ආක්ෂේ කුමාර්) වේලුර් බන්ධනාගාරයේ ඉදල සිවගංගයි අධිකරණයට එක්කන් යන්න වෙනවා. ඒකත් පොදු ප්‍රවාහන සේවයෙන් එක රැක් පුරාම. ඔන්න ඔතනින් තමයි කතාව පටන් ගන්නේ.",
     image: "https://i.ytimg.com/vi/QeVJ9Aw7X2E/maxresdefault.jpg",
