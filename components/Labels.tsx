@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { posts } from "@/data/posts";
 
 export default function Labels() {
@@ -31,24 +32,27 @@ export default function Labels() {
 
     // Build dynamic labels array with sections
     const labels = [
-        { name: "All Subtitles", count: totalDownloads, isHeader: false },
-        { name: "By Year", count: Object.keys(yearCounts).length, isHeader: true },
+        { name: "All Subtitles", count: totalDownloads, isHeader: false, link: "/" },
+        { name: "By Year", count: Object.keys(yearCounts).length, isHeader: true, link: null },
         ...Object.entries(yearCounts).map(([year, count]) => ({
             name: year,
             count: count,
-            isHeader: false
+            isHeader: false,
+            link: `/labels/${year}`
         })),
-        { name: "By Language", count: Object.keys(languageCounts).length, isHeader: true },
+        { name: "By Language", count: Object.keys(languageCounts).length, isHeader: true, link: null },
         ...Object.entries(languageCounts).map(([lang, count]) => ({
             name: lang,
             count: count,
-            isHeader: false
+            isHeader: false,
+            link: `/labels/${lang.toLowerCase()}`
         })),
-        { name: "By Quality", count: Object.keys(categoryCounts).length, isHeader: true },
+        { name: "By Quality", count: Object.keys(categoryCounts).length, isHeader: true, link: null },
         ...Object.entries(categoryCounts).map(([category, count]) => ({
             name: category.charAt(0).toUpperCase() + category.slice(1),
             count: count,
-            isHeader: false
+            isHeader: false,
+            link: `/labels/${category.toLowerCase()}`
         })),
     ];
 
@@ -56,23 +60,35 @@ export default function Labels() {
         <div className="bg-black/60 p-4 rounded">
             <h3 className="font-bold mb-3">Labels</h3>
 
-            {labels.map((label) => (
-                <div
-                    key={label.name}
-                    className={`flex justify-between py-1 ${
-                        label.isHeader 
-                            ? 'text-red-400 font-bold mt-2' 
-                            : 'text-sm hover:text-red-500 cursor-pointer'
-                    } transition-colors`}
-                >
-                    <span>{label.name}</span>
-                    {!label.isHeader && (
-                        <span className="bg-zinc-800 px-2 py-0.5 rounded text-xs font-medium">
+            {labels.map((label) => {
+                // If it's a header, just render text
+                if (label.isHeader) {
+                    return (
+                        <div
+                            key={label.name}
+                            className="text-red-400 font-bold mt-2 py-1"
+                        >
+                            {label.name}
+                        </div>
+                    );
+                }
+
+                // If it has a link, make it clickable
+                return (
+                    <Link
+                        key={label.name}
+                        href={label.link || "#"}
+                        className="flex justify-between py-1 text-sm hover:text-red-500 cursor-pointer transition-colors group"
+                    >
+                        <span className="group-hover:translate-x-1 transition-transform">
+                            {label.name}
+                        </span>
+                        <span className="bg-zinc-800 group-hover:bg-red-900/50 px-2 py-0.5 rounded text-xs font-medium transition-colors">
                             {label.count}
                         </span>
-                    )}
-                </div>
-            ))}
+                    </Link>
+                );
+            })}
         </div>
     );
 }
