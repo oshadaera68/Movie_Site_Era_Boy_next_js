@@ -2,7 +2,7 @@ export const posts = [
     {
         id: 1,
         slug: "veera-dheera-sooran-part-2-2025-sinhala-subtitles",
-        title: "Veera Dheera Sooran: Part 2 (2025) Sinhala Subtitles : කැලෑ නීතිය රජ කරන රාත්‍රියක..",
+        title: "Veera Dheera Sooran: Part 2 (2025) Sinhala Subtitles : කැලෑ නීතිය රජ කරන රාත්‍රියක.. [සිංහල උපසිරැසි]",
         tags: "Veera Dheera Sooran: Part 2, Veera Dheera Sooran: Part 2 Sinhala subtitles, Veera Dheera Sooran: Part 2 Sinhala Subtitles 2025, Ravindu Navin",
         excerpt: "Veera Dheera Sooran: Part 2 movie Sinhala subtitles..",
         content:
@@ -25,7 +25,7 @@ export const posts = [
     {
     id: 2,
     slug: "sirai-2025-sinhala-subtitles",
-    title: "Sirai (2025) Sinhala Subtitles : සිරකරුවා..",
+    title: "Sirai (2025) Sinhala Subtitles : සිරකරුවා.. [සිංහල උපසිරැසි]",
     tags: "Sirai, Sirai Sinhala subtitles, Sirai Sinhala Subtitles 2025, Peter Barthlet",
     excerpt: "Sirai movie Sinhala subtitles..",
     content:
@@ -46,7 +46,7 @@ export const posts = [
   {
     id: 3,
     slug: "the-rajasaab-2025-sinhala-subtitles",
-    title: "The RajaSaab (2026) Sinhala Subtitles : යකාගේ මන්දිරේ...",
+    title: "The RajaSaab (2026) Sinhala Subtitles : යකාගේ මන්දිරේ... [සිංහල උපසිරැසි]",
     tags: "The RajaSaab, The RajaSaab Sinhala subtitles, The RajaSaab Sinhala Subtitles 2025, Ashen Kavindu, Lahiru Udayanga",
     excerpt: "The RajaSaab movie Sinhala subtitles...",
     content:
@@ -69,7 +69,7 @@ export const posts = [
     id: 4,
     slug: "eko-2025-sinhala-subtitles",
     title:
-      "Eko (2025) Sinhala Subtitles : සත්තු රැකබලාගන්නා කුරියච්චන්ගේ කතාව..",
+      "Eko (2025) Sinhala Subtitles : සත්තු රැකබලාගන්නා කුරියච්චන්ගේ කතාව.. [සිංහල උපසිරැසි]",
     tags: "Eko, Eko Sinhala subtitles, Eko Sinhala Subtitles 2025, Ashen Kavindu, Dileepa Madushan",
     excerpt: "Eko movie Sinhala subtitles...",
     content:
@@ -98,7 +98,7 @@ export const posts = [
     id: 5,
     slug: "shambhala-2025-sinhala-subtitles",
     title:
-      "Shambhala: A Mystical World (2025) Sinhala Subtitles : ශම්භාලා ගම්මානයේ අදුරු යක්ෂ ශාපය",
+      "Shambhala: A Mystical World (2025) Sinhala Subtitles : ශම්භාලා ගම්මානයේ අදුරු යක්ෂ ශාපය [සිංහල උපසිරැසි]",
     tags: "Shambhala, Shambhala Sinhala subtitles, Shambhala Sinhala Subtitles 2025, Era Boy",
     excerpt: "Shambhala movie Sinhala subtitles...",
     content:
@@ -125,7 +125,7 @@ export const posts = [
     id: 6,
     slug: "tribanadhari-barbarik-2025-sinhala-subtitles",
     title:
-      "Tribanadhari Barbarik (2025) Sinhala Subtitles : මිනිබිරිය වෙනුවෙන් දඩයක්කරුවෙක්",
+      "Tribanadhari Barbarik (2025) Sinhala Subtitles : මිනිබිරිය වෙනුවෙන් දඩයක්කරුවෙක් [සිංහල උපසිරැසි]",
     tags: "Tribanadhari Barbarik, Tribanadhari Barbarik Sinhala subtitles, Tribanadhari Barbarik Sinhala Subtitles 2025, Era Boy",
     excerpt: "Tribanadhari Barbarik movie Sinhala subtitles...",
     content:
@@ -148,7 +148,7 @@ export const posts = [
     id: 7,
     slug: "mass-jathara-2025-sinhala-subtitles",
     title:
-      "Mass Jathara (2025) Sinhala Subtitles : රාජකාරිය අකුරට කරන නිලධාරියෙක්",
+      "Mass Jathara (2025) Sinhala Subtitles : රාජකාරිය අකුරට කරන නිලධාරියෙක් [සිංහල උපසිරැසි]",
     tags: "Mass Jathara, Mass Jathara Sinhala subtitles, Mass Jathara Sinhala Subtitles 2025, Kavishka Sankalpa",
     excerpt: "Mass Jathara movie Sinhala subtitles...",
     content:
@@ -176,7 +176,7 @@ export const posts = [
   {
     id: 8,
     slug: "hunt-2024-sinhala-subtitles",
-    title: "Hunt (2024) Sinhala Subtitles : පලිගැනීමක්, මිනීමැරුමක්, ආත්මයක්",
+    title: "Hunt (2024) Sinhala Subtitles : පලිගැනීමක්, මිනීමැරුමක්, ආත්මයක් [සිංහල උපසිරැසි]",
     tags: "Hunt, Hunt Sinhala subtitles, Hunt Sinhala Subtitles 2024, era boy",
     excerpt: "Hunt movie Sinhala subtitles...",
     content:
@@ -198,7 +198,7 @@ export const posts = [
   {
     id: 9,
     slug: "indra-2025-sinhala-subtitles",
-    title: "Indra (2025) Sinhala Subtitles : දාම ඝාතකයාගේ පලිගැනීම",
+    title: "Indra (2025) Sinhala Subtitles : දාම ඝාතකයාගේ පලිගැනීම [සිංහල උපසිරැසි]",
     tags: "Indra, Indra Sinhala subtitles, Indra Sinhala Subtitles 2025, era boy",
     excerpt: "Indra movie Sinhala subtitles...",
     content:
@@ -219,7 +219,7 @@ export const posts = [
   {
     id: 10,
     slug: "turbo-2024-sinhala-subtitles",
-    title: "Turbo (2024) Sinhala Subtitles : ටර්බෝ ජෝසේ",
+    title: "Turbo (2024) Sinhala Subtitles : ටර්බෝ ජෝසේ [සිංහල උපසිරැසි]",
     tags: "Turbo, Turbo Sinhala subtitles, Turbo Sinhala Subtitles 2024, era boy",
     excerpt: "Turbo movie Sinhala subtitles...",
     content:
@@ -240,7 +240,7 @@ export const posts = [
   {
     id: 11,
     slug: "striker-2023-sinhala-subtitles",
-    title: "Striker (2023) Sinhala Subtitles : ආත්ම මාරුව",
+    title: "Striker (2023) Sinhala Subtitles : ආත්ම මාරුව [සිංහල උපසිරැසි]",
     tags: "Striker, Striker Sinhala subtitles, Striker Sinhala Subtitles 2023, era boy",
     excerpt: "Striker movie Sinhala subtitles...",
     content:
@@ -261,7 +261,7 @@ export const posts = [
   {
     id: 12,
     slug: "pindam-2023-sinhala-subtitles",
-    title: "Pindam (2023) Sinhala Subtitles : අවුරුදු 60ක ශාපලත් කලලයේ අභිරහස",
+    title: "Pindam (2023) Sinhala Subtitles : අවුරුදු 60ක ශාපලත් කලලයේ අභිරහස [සිංහල උපසිරැසි]",
     tags: "Pindam, Pindam Sinhala subtitles, Pindam Sinhala Subtitles 2023, era boy",
     excerpt: "Pindam movie Sinhala subtitles...",
     content:
@@ -282,7 +282,7 @@ export const posts = [
   {
     id: 13,
     slug: "salaar-2023-sinhala-subtitles",
-    title: "Salaar (2023) Sinhala Subtitles : සලාර්!",
+    title: "Salaar (2023) Sinhala Subtitles : සලාර්! [සිංහල උපසිරැසි]",
     tags: "Salaar, Salaar Sinhala subtitles, Salaar Sinhala Subtitles 2023, era boy",
     excerpt: "Salaar movie Sinhala subtitles...",
     content:
@@ -304,7 +304,7 @@ export const posts = [
     id: 14,
     slug: "yuva-2024-sinhala-subtitles",
     title:
-      "Yuva (2024) Sinhala Subtitles : මල්ලවපොර පිටිය ජයගත් ඩිලිවරි කොල්ලා",
+      "Yuva (2024) Sinhala Subtitles : මල්ලවපොර පිටිය ජයගත් ඩිලිවරි කොල්ලා [සිංහල උපසිරැසි]",
     tags: "Yuva, Yuva Sinhala subtitles, Yuva Sinhala Subtitles 2024, era boy",
     excerpt: "Yuva movie Sinhala subtitles...",
     content:
@@ -326,7 +326,7 @@ export const posts = [
   {
     id: 15,
     slug: "balti-2025-sinhala-subtitles",
-    title: "Balti (2025) Sinhala Subtitles : කබඩිද? මැර බලයද?",
+    title: "Balti (2025) Sinhala Subtitles : කබඩිද? මැර බලයද? [සිංහල උපසිරැසි]",
     tags: "Balti, Balti Sinhala subtitles, Balti Sinhala Subtitles 2025, era boy",
     excerpt: "Balti movie Sinhala subtitles...",
     content:
@@ -348,7 +348,7 @@ export const posts = [
     id: 16,
     slug: "dominic-and-the-ladies-purse-2025-sinhala-subtitles",
     title:
-      "Dominic and the ladies purse (2025) Sinhala Subtitles : පසුම්බියෙන් පටන් ගත් අභිරහසක්",
+      "Dominic and the ladies purse (2025) Sinhala Subtitles : පසුම්බියෙන් පටන් ගත් අභිරහසක් [සිංහල උපසිරැසි]",
     tags: "Dominic and the ladies purse, Dominic and the ladies purse Sinhala subtitles, Dominic and the ladies purse Sinhala Subtitles 2025, era boy",
     excerpt: "Dominic and the ladies purse movie Sinhala subtitles...",
     content:
@@ -369,7 +369,7 @@ export const posts = [
   {
     id: 17,
     slug: "kalamkaval-2025-sinhala-subtitles",
-    title: "KalamKaval (2025) Sinhala Subtitles : ගෑණු මරණ දාම ඝාතකයා",
+    title: "KalamKaval (2025) Sinhala Subtitles : ගෑණු මරණ දාම ඝාතකයා [සිංහල උපසිරැසි]",
     tags: "KalamKaval, KalamKaval Sinhala subtitles, KalamKaval Sinhala Subtitles 2025, era boy",
     excerpt: "KalamKaval movie Sinhala subtitles...",
     content:
