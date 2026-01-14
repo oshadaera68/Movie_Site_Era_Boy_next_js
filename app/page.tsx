@@ -289,6 +289,17 @@ export default function Home() {
                 </div>
             </main>
 
+            <footer className="mt-20 py-10 border-t border-white/5 text-center">
+                <div className="max-w-7xl mx-auto px-4">
+                    <p className="text-gray-500 text-sm mb-2">
+                        &copy; {new Date().getFullYear()} ERA BOY. All Rights Reserved.
+                    </p>
+                    <p className="text-gray-600 text-xs">
+                        Providing quality subtitles for your entertainment
+                    </p>
+                </div>
+            </footer>
+
             <style jsx>{`
                 @keyframes fade-in-up {
                     from {
