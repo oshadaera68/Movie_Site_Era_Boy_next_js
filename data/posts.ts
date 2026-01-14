@@ -1,6 +1,29 @@
 export const posts = [
-  {
-    id: 1,
+    {
+        id: 1,
+        slug: "veera-dheera-sooran-part-2-2025-sinhala-subtitles",
+        title: "Veera Dheera Sooran: Part 2 (2025) Sinhala Subtitles : කැලෑ නීතිය රජ කරන රාත්‍රියක..",
+        tags: "Veera Dheera Sooran: Part 2, Veera Dheera Sooran: Part 2 Sinhala subtitles, Veera Dheera Sooran: Part 2 Sinhala Subtitles 2025, Ravindu Navin",
+        excerpt: "Veera Dheera Sooran: Part 2 movie Sinhala subtitles..",
+        content:
+            "පාර්ට් 2 බලන්න ආවේ පාර්ට් 1 බලලද? නැහැ නැහැ, තවම මේ චිත්‍රපටයේ පාර්ට් 1 ආවේ නැහැ. මේ තමයි පලවෙනි චිත්‍රපටය. සුපුරුදු විදියටම කතාව පැත්තට යමුකෝ.\n" +
+            "\n" +
+            "මදුරෛ පෙදෙසේ එක්තරා ගම්මානයක කෝවිලේ සැනකෙළිය දිනයේ කාන්තාවක් හා දැරිවියක් අතුරුදහන් වෙනවා. ඊට වගකිව යුත්තේ ගමේ පෙරියවර් නැමැති රවී බව කියමින් එම කාන්තාවගේ සැමියා පොලිස් ස්ථානයට FIR ඉදිරිපත් කරනවා. රවී එක්ක අවුරුදු 8ක කෝන්තරයක් තිබුණ පොලිස් අධිකාරීවරයා, ඒ වෙනුවෙන් පළිගන්න මේ වගේ අවස්ථාවක් ලැබෙන කල් බලන් හිටියෙ. ඒ අනුව සැනකෙළිය දවසේ උපරිම ඵල නෙලාගන්න, ඉහළ නිළධාරීන්ගෙන් ආයාචනා කරලා අවසර ගත්තා. ඒ අනුව පෙරියවර් රවීව සහ කන්නන්ව මරා දමන්න සැලසුමක් දියත් කළා. මෙවන් සැලැස්මක් ක්‍රියාත්මක වන බව දන්නා පෙරියවර් රවී, ඔහුගේ පුතාගේ ජීවිතය රැකගන්න කන්නන්ට කොහේ හෝ සැඟවෙන්නට කියා නිවසින් පිටත් කර හැරියා. ඔහුද නිවසෙන් බැහැර වුණා. ඒත් මේ නීතිය බල්ලට දැමූ රාත්‍රියේ රවීට එකම එක බලාපොරොත්තුවක් තිබුණා. ඒ කාලි. යම් කරදරකාරී සිදුවීම් කිහිපයක් නිසා කාලි බොහෝ කාලයක් ගමෙන් ඈතට වී පාඩුවෙ ජීවත් වෙමින් හිටියා. රවී කාලිගේ ගෙදරටම ගොස් හමුවෙලා කන්නන්ව බේරලා දෙන්න කියලා බැගෑපත් වෙලා ඉල්ලනවා. අතීතයේ වුණ සිද්ධීන් නිසා කාලිගේ නෝනා රවීගේ පවුලෙ ආශ්‍රයක් වත් තියාගන්න කැමැත්තක් තිබුණෙ නැහැ. රවීව විශ්වාස කරන්න එපා කියා කලෛ කාලිට අවවාද කළා. ඒත් රවීගේ දැඩි ඉල්ලීම කාලිට අහක දමන්න හිතක් දුන්නෙ නැහැ. ඒ නිසා කාලි තමන්ගේ පවුලෙ අය සැනකෙළිය නරඹන්න ගිය අතරෙදි හොර රහසේම පාරට බැස්සා. රවීගේ ඉල්ලීම වුණේ පොලිස් අධිකාරී වරයා මරා දැමීමයි. ඒ වෙද්දි පොලිස් අධිකාරීවරයා රවී සහ කන්නන් සොයා තම සහචරයන් සමඟ නිදැල්ලේ යමින් සිටියා. තවද ඔහුගේ සහයට සහය බළඇණියක් පොලිසියට ළඟා වෙමින් තිබුණා.",
+        image: "https://i.ytimg.com/vi/vHPae4sZbu8/maxresdefault.jpg",
+        video: "WEB-DL",
+        category: "subtitles",
+        language: "Tamil",
+        downloadUrl:
+            "https://drive.google.com/uc?export=download&id=1tXlPgKHpOFJhKpBKA6EjScSoznI-Y7Bp",
+        releaseDate: "Mar 27, 2025",
+        subtitledBy: "රවිදු නවින්",
+        subtitleSite: "Baiscope.LK",
+        director: "S. U. Arun Kumar",
+        producer: "Riya Shibu, Mumthas M.",
+        cast: "Vikram, S. J. Suryah, Suraj Venjaramoodu, Dushara Vijayan, Prudhvi Raj",
+    },
+    {
+    id: 2,
     slug: "sirai-2025-sinhala-subtitles",
     title: "Sirai (2025) Sinhala Subtitles : සිරකරුවා..",
     tags: "Sirai, Sirai Sinhala subtitles, Sirai Sinhala Subtitles 2025, Peter Barthlet",
@@ -21,7 +44,7 @@ export const posts = [
     cast: "Vikram Prabhu, LK Akshay Kumar, Anishma Anilkumar, Ananda Thambirajah",
   },
   {
-    id: 2,
+    id: 3,
     slug: "the-rajasaab-2025-sinhala-subtitles",
     title: "The RajaSaab (2026) Sinhala Subtitles : යකාගේ මන්දිරේ...",
     tags: "The RajaSaab, The RajaSaab Sinhala subtitles, The RajaSaab Sinhala Subtitles 2025, Ashen Kavindu, Lahiru Udayanga",
@@ -43,7 +66,7 @@ export const posts = [
     cast: "	Prabhas, Sanjay Dutt, Nidhhi Agerwal, Malavika Mohanan, Riddhi Kumar, Zarina Wahab",
   },
   {
-    id: 3,
+    id: 4,
     slug: "eko-2025-sinhala-subtitles",
     title:
       "Eko (2025) Sinhala Subtitles : සත්තු රැකබලාගන්නා කුරියච්චන්ගේ කතාව..",
@@ -72,7 +95,7 @@ export const posts = [
     cast: "Sandeep Pradeep, Vineeth, Narain, Saurabh Sachdeva, Binu Pappu ,Biana Momin",
   },
   {
-    id: 4,
+    id: 5,
     slug: "shambhala-2025-sinhala-subtitles",
     title:
       "Shambhala: A Mystical World (2025) Sinhala Subtitles : ශම්භාලා ගම්මානයේ අදුරු යක්ෂ ශාපය",
@@ -99,7 +122,7 @@ export const posts = [
     cast: "Aadi Saikumar, Swasika Vijay, Ravi Varma, Shiju, Archana Iyer",
   },
   {
-    id: 5,
+    id: 6,
     slug: "tribanadhari-barbarik-2025-sinhala-subtitles",
     title:
       "Tribanadhari Barbarik (2025) Sinhala Subtitles : මිනිබිරිය වෙනුවෙන් දඩයක්කරුවෙක්",
@@ -122,7 +145,7 @@ export const posts = [
     cast: "Sathyaraj, Vasishta N. Simha, Satyam Rajesh, Udaya Bhanu",
   },
   {
-    id: 6,
+    id: 7,
     slug: "mass-jathara-2025-sinhala-subtitles",
     title:
       "Mass Jathara (2025) Sinhala Subtitles : රාජකාරිය අකුරට කරන නිලධාරියෙක්",
@@ -151,7 +174,7 @@ export const posts = [
     cast: "Ravi Teja, Sreeleela, Naveen Chandra",
   },
   {
-    id: 7,
+    id: 8,
     slug: "hunt-2024-sinhala-subtitles",
     title: "Hunt (2024) Sinhala Subtitles : පලිගැනීමක්, මිනීමැරුමක්, ආත්මයක්",
     tags: "Hunt, Hunt Sinhala subtitles, Hunt Sinhala Subtitles 2024, era boy",
@@ -173,7 +196,7 @@ export const posts = [
     cast: "Bhavana, Renji Panicker, Chandhunadh, Dain Davis, Ajmal Ameer, Aditi Ravi",
   },
   {
-    id: 8,
+    id: 9,
     slug: "indra-2025-sinhala-subtitles",
     title: "Indra (2025) Sinhala Subtitles : දාම ඝාතකයාගේ පලිගැනීම",
     tags: "Indra, Indra Sinhala subtitles, Indra Sinhala Subtitles 2025, era boy",
@@ -194,7 +217,7 @@ export const posts = [
     cast: "Vasanth Ravi, Mehreen Pirzada, Sunil, Rajkumar, Anikha Surendran",
   },
   {
-    id: 9,
+    id: 10,
     slug: "turbo-2024-sinhala-subtitles",
     title: "Turbo (2024) Sinhala Subtitles : ටර්බෝ ජෝසේ",
     tags: "Turbo, Turbo Sinhala subtitles, Turbo Sinhala Subtitles 2024, era boy",
@@ -215,7 +238,7 @@ export const posts = [
     cast: "Mammootty, Raj B. Shetty, Kabir Duhan Singh, Shabareesh Varma, Anjana Jayaprakash, Sunil, Dileesh Pothan, Prasanth Alexander",
   },
   {
-    id: 10,
+    id: 11,
     slug: "striker-2023-sinhala-subtitles",
     title: "Striker (2023) Sinhala Subtitles : ආත්ම මාරුව",
     tags: "Striker, Striker Sinhala subtitles, Striker Sinhala Subtitles 2023, era boy",
@@ -236,7 +259,7 @@ export const posts = [
     cast: "Justin Vijay, Vidya Pradeep, Robert, Kasthuri Shankar, Abhinayashree",
   },
   {
-    id: 11,
+    id: 12,
     slug: "pindam-2023-sinhala-subtitles",
     title: "Pindam (2023) Sinhala Subtitles : අවුරුදු 60ක ශාපලත් කලලයේ අභිරහස",
     tags: "Pindam, Pindam Sinhala subtitles, Pindam Sinhala Subtitles 2023, era boy",
@@ -257,7 +280,7 @@ export const posts = [
     cast: "Sriram, Kushee Ravi, Easwari Rao, Srinivas Avasarala",
   },
   {
-    id: 12,
+    id: 13,
     slug: "salaar-2023-sinhala-subtitles",
     title: "Salaar (2023) Sinhala Subtitles : සලාර්!",
     tags: "Salaar, Salaar Sinhala subtitles, Salaar Sinhala Subtitles 2023, era boy",
@@ -278,7 +301,7 @@ export const posts = [
     cast: "Prabhas, Prithviraj Sukumaran, Bobby Simha, Shruti Haasan, Jagapathi Babu, Sriya Reddy",
   },
   {
-    id: 13,
+    id: 14,
     slug: "yuva-2024-sinhala-subtitles",
     title:
       "Yuva (2024) Sinhala Subtitles : මල්ලවපොර පිටිය ජයගත් ඩිලිවරි කොල්ලා",
@@ -301,7 +324,7 @@ export const posts = [
     cast: "Yuva Rajkumar, Sapthami Gowda, Achyuth Kumar, Kishore",
   },
   {
-    id: 14,
+    id: 15,
     slug: "balti-2025-sinhala-subtitles",
     title: "Balti (2025) Sinhala Subtitles : කබඩිද? මැර බලයද?",
     tags: "Balti, Balti Sinhala subtitles, Balti Sinhala Subtitles 2025, era boy",
@@ -322,7 +345,7 @@ export const posts = [
     cast: "Shane Nigam, Shanthanu Bhagyaraj, Preethi Asrani, Poornima Indrajith, Selvaraghavan, Akshay Radhakrishnan, Shiva Hariharan, Jeckson Johnson",
   },
   {
-    id: 15,
+    id: 16,
     slug: "dominic-and-the-ladies-purse-2025-sinhala-subtitles",
     title:
       "Dominic and the ladies purse (2025) Sinhala Subtitles : පසුම්බියෙන් පටන් ගත් අභිරහසක්",
@@ -344,7 +367,7 @@ export const posts = [
     cast: "Mammootty, Gokul Suresh, Sushmitha Bhat, Sudev Babu, Meenakshi Unnikrishnan, Shine Tom Chacko, Balachandran Chullikkad",
   },
   {
-    id: 16,
+    id: 17,
     slug: "kalamkaval-2025-sinhala-subtitles",
     title: "KalamKaval (2025) Sinhala Subtitles : ගෑණු මරණ දාම ඝාතකයා",
     tags: "KalamKaval, KalamKaval Sinhala subtitles, KalamKaval Sinhala Subtitles 2025, era boy",
