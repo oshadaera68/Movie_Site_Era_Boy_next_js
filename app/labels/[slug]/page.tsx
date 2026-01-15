@@ -53,7 +53,7 @@ export default function LabelPage() {
         }
 
         // Check if it's a video quality
-        if (["web-dl", "camcopy", "bluray", "hdrip"].includes(slugLower)) {
+        if (["web-dl", "camcopy", "bluray", "hdrip, webrip"].includes(slugLower)) {
             return {
                 type: "Quality",
                 title: decodedSlug.toUpperCase(),
