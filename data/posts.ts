@@ -3,7 +3,7 @@ export const posts = [
     id: 1,
     slug: "alappuzha-gymkhana-2025-sinhala-subtitles",
     title:
-      "Alappuzha Gymkhana (2025) Sinhala Subtitles: ආලප්පුලා ක්‍රීඩා සමාජය [සිංහල උපසිරැසි] ",
+      "Alappuzha Gymkhana (2025) Sinhala Subtitles: ආලප්පුලා ක්‍රීඩා සමාජය [සිංහල උපසිරැසි] [TRUE WEB-DL Update]",
     tags: "Alappuzha Gymkhana, Alappuzha Gymkhana Sinhala subtitles, Alappuzha Gymkhana Sinhala Subtitles 2025, රොෂේන් මලින්ද",
     excerpt: "Alappuzha Gymkhana movie Sinhala subtitles...",
     content:
@@ -210,7 +210,7 @@ export const posts = [
     id: 10,
     slug: "eko-2025-sinhala-subtitles",
     title:
-      "Eko (2025) Sinhala Subtitles : සත්තු රැකබලාගන්නා කුරියච්චන්ගේ කතාව.. [සිංහල උපසිරැසි]",
+      "Eko (2025) Sinhala Subtitles : සත්තු රැකබලාගන්නා කුරියච්චන්ගේ කතාව.. [සිංහල උපසිරැසි] [TRUE WEB-DL Update]",
     tags: "Eko, Eko Sinhala subtitles, Eko Sinhala Subtitles 2025, Ashen Kavindu, Dileepa Madushan",
     excerpt: "Eko movie Sinhala subtitles...",
     content:
@@ -289,7 +289,7 @@ export const posts = [
     id: 13,
     slug: "mass-jathara-2025-sinhala-subtitles",
     title:
-      "Mass Jathara (2025) Sinhala Subtitles : රාජකාරිය අකුරට කරන නිලධාරියෙක් [සිංහල උපසිරැසි]",
+      "Mass Jathara (2025) Sinhala Subtitles : රාජකාරිය අකුරට කරන නිලධාරියෙක් [සිංහල උපසිරැසි] [TRUE WEB-DL Update]",
     tags: "Mass Jathara, Mass Jathara Sinhala subtitles, Mass Jathara Sinhala Subtitles 2025, Kavishka Sankalpa",
     excerpt: "Mass Jathara movie Sinhala subtitles...",
     content:
@@ -426,7 +426,7 @@ export const posts = [
   {
     id: 19,
     slug: "salaar-2023-sinhala-subtitles",
-    title: "Salaar (2023) Sinhala Subtitles : සලාර්! [සිංහල උපසිරැසි]",
+    title: "Salaar (2023) Sinhala Subtitles : සලාර්! [සිංහල උපසිරැසි] [TRUE WEB-DL Update]",
     tags: "Salaar, Salaar Sinhala subtitles, Salaar Sinhala Subtitles 2023, era boy",
     excerpt: "Salaar movie Sinhala subtitles...",
     content:
