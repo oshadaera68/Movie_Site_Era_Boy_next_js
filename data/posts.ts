@@ -15,7 +15,7 @@ export const posts = [
     downloadUrl:
       "https://drive.google.com/uc?export=download&id=1TqG33VAVXxV9YNRXgtSjU7PfJbAmKj-l",
     releaseDate: "April 10, 2025",
-    subtitledBy: "සිනෙරු කණ්ඩායම",
+    subtitledBy: "රොෂේන් මලින්ද",
     subtitleSite: "Cineru.LK",
     director: "Khalid Rahman",
     producer: "Khalid Rahman, Jobin George, Sameer Karat, Subeesh Kannanchery",
