@@ -110,7 +110,7 @@ export default function LabelPage() {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 {filteredPosts.map((post, index) => (
                                     <Link
-                                        href={`/post/${post.id}`}
+                                        href={`/post/${post.slug}`}
                                         key={post.id}
                                         className="group relative animate-fade-in-up"
                                         style={{ animationDelay: `${index * 0.1}s` }}
