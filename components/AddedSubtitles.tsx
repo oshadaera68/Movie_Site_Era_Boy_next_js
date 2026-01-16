@@ -1,6 +1,6 @@
+"use client"
 import Link from 'next/link';
 import {useRef} from 'react';
-import {useParams} from "next/navigation";
 
 interface Post {
     id: number;
@@ -20,8 +20,8 @@ interface AddedSubtitlesProps {
 }
 
 export default function AddedSubtitles({posts}: AddedSubtitlesProps) {
-    const params = useParams();
-    const slug = params.slug as string;
+    // const params = useParams();
+    // // const slug = params.slug as string;
     const scrollContainerRef = useRef<HTMLDivElement>(null);
 
     const scroll = (direction: 'left' | 'right') => {
@@ -78,7 +78,7 @@ export default function AddedSubtitles({posts}: AddedSubtitlesProps) {
 
                 <div ref={scrollContainerRef} className="flex gap-4 overflow-x-auto pb-2 scrollbar-hide">
                     {posts.slice(0, 8).map((post, index) => (<Link
-                            href={`/post/${post.slug}`}
+                        href={`/post/${post.slug}`}
                             key={post.id}
                             className="group relative flex-shrink-0 animate-fade-in block"
                             style={{animationDelay: `${index * 0.05}s`}}
