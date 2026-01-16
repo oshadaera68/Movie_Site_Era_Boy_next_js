@@ -110,7 +110,7 @@ export const posts = [
         cast: "Vikram Prabhu, LK Akshay Kumar, Anishma Anilkumar, Ananda Thambirajah",
     }, {
         id: 7,
-        slug: "the-rajasaab-2025-sinhala-subtitles",
+        slug: "the-rajasaab-2026-sinhala-subtitles",
         title: "The RajaSaab (2026) Sinhala Subtitles : යකාගේ මන්දිරේ... [සිංහල උපසිරැසි]",
         tags: "The RajaSaab, The RajaSaab Sinhala subtitles, The RajaSaab Sinhala Subtitles 2025, Ashen Kavindu, Lahiru Udayanga",
         excerpt: "The RajaSaab movie Sinhala subtitles...",
