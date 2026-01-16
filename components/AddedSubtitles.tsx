@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import {useRef} from 'react';
+import {useParams} from "next/navigation";
 
 interface Post {
     id: number;
@@ -19,6 +20,8 @@ interface AddedSubtitlesProps {
 }
 
 export default function AddedSubtitles({posts}: AddedSubtitlesProps) {
+    const params = useParams();
+    const slug = params.slug as string;
     const scrollContainerRef = useRef<HTMLDivElement>(null);
 
     const scroll = (direction: 'left' | 'right') => {
