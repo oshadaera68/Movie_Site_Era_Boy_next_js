@@ -30,6 +30,13 @@ export default function Labels() {
         return acc;
     }, {} as Record<string, number>);
 
+    // Count posts by subtitle site
+    const subtitleSiteCounts = posts.reduce((acc, post) => {
+        const site = post.subtitleSite;
+        acc[site] = (acc[site] || 0) + 1;
+        return acc;
+    }, {} as Record<string, number>);
+
     // Build dynamic labels array with sections
     const labels = [
         { name: "All Subtitles", count: totalDownloads, isHeader: false, link: "/" },
@@ -46,6 +53,13 @@ export default function Labels() {
             count: count,
             isHeader: false,
             link: `/labels/${lang.toLowerCase()}`
+        })),
+        { name: "By Subtitle Site", count: Object.keys(subtitleSiteCounts).length, isHeader: true, link: null },
+        ...Object.entries(subtitleSiteCounts).map(([site, count]) => ({
+            name: site,
+            count: count,
+            isHeader: false,
+            link: `/labels/${site.toLowerCase().replace(/\./g, '-')}`
         })),
         { name: "By Quality", count: Object.keys(categoryCounts).length, isHeader: true, link: null },
         ...Object.entries(categoryCounts).map(([category, count]) => ({

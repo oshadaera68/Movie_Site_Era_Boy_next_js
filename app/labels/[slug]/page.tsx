@@ -13,7 +13,7 @@ export default function LabelPage() {
     const params = useParams();
     const slug = params.slug as string;
 
-    // Decode the slug (e.g., "web-dl" or "2025" or "tamil")
+    // Decode the slug (e.g., "web-dl" or "2025" or "tamil" or "sinhalasub-lk")
     const decodedSlug = decodeURIComponent(slug);
 
     // Filter posts based on the label
@@ -36,6 +36,13 @@ export default function LabelPage() {
             return true;
         }
 
+        // Check if it matches subtitle site (convert back from URL format)
+        // e.g., "sinhalasub-lk" -> "SinhalaSub.LK"
+        const siteSlug = post.subtitleSite.toLowerCase().replace(/\./g, '-');
+        if (siteSlug === slugLower) {
+            return true;
+        }
+
         return false;
     });
 
@@ -53,7 +60,7 @@ export default function LabelPage() {
         }
 
         // Check if it's a video quality
-        if (["web-dl", "camcopy", "bluray", "hdrip, webrip"].includes(slugLower)) {
+        if (["web-dl", "camcopy", "bluray", "hdrip", "webrip"].includes(slugLower)) {
             return {
                 type: "Quality",
                 title: decodedSlug.toUpperCase(),
@@ -61,11 +68,24 @@ export default function LabelPage() {
             };
         }
 
+        // Check if it's a subtitle site (contains hyphen and ends with -lk, -com, etc.)
+        if (slugLower.includes('-') && /-(lk|com|net|org)$/.test(slugLower)) {
+            // Convert back to display format: "sinhalasub-lk" -> "SinhalaSub.LK"
+            const parts = slugLower.split('-');
+            const domain = parts.pop()?.toUpperCase() || '';
+            const siteName = parts.map(p => p.charAt(0).toUpperCase() + p.slice(1)).join('');
+            return {
+                type: "Subtitle Site",
+                title: `${siteName}.${domain}`,
+                icon: "🌐"
+            };
+        }
+
         // Otherwise, it's a language
         return {
             type: "Language",
             title: decodedSlug.charAt(0).toUpperCase() + decodedSlug.slice(1),
-            icon: "🌐"
+            icon: "🗣️"
         };
     };
 
@@ -82,6 +102,8 @@ export default function LabelPage() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
                     <div className="space-y-3">
                         <div className="flex items-center gap-2 text-sm text-gray-500">
+                            <Link href="/" className="hover:text-red-400 transition-colors">Home</Link>
+                            <span>/</span>
                             <span>Labels</span>
                             <span>/</span>
                             <span className="text-red-400">{labelInfo.type}</span>
@@ -110,7 +132,7 @@ export default function LabelPage() {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 {filteredPosts.map((post, index) => (
                                     <Link
-                                        href={`/post/${post.slug}`}
+                                        href={`/posts/${post.slug}`}
                                         key={post.id}
                                         className="group relative animate-fade-in-up"
                                         style={{ animationDelay: `${index * 0.1}s` }}
@@ -156,15 +178,25 @@ export default function LabelPage() {
                                                 </p>
 
                                                 {/* Footer Info */}
-                                                <div className="flex items-center justify-between text-xs">
+                                                <div className="flex items-center justify-between text-xs mb-2">
                                                     <span className="text-gray-500">{post.releaseDate}</span>
                                                     <span className="px-2 py-1 bg-zinc-800 text-gray-400 rounded">
                                                         {post.category}
                                                     </span>
                                                 </div>
 
+                                                {/* Subtitle Site Badge */}
+                                                <div className="mb-3">
+                                                    <span className="inline-flex items-center gap-1 text-xs px-2 py-1 bg-blue-900/30 text-blue-400 rounded border border-blue-500/30">
+                                                        <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+                                                        </svg>
+                                                        {post.subtitleSite}
+                                                    </span>
+                                                </div>
+
                                                 {/* Tags */}
-                                                <div className="flex gap-2 mt-3 flex-wrap">
+                                                <div className="flex gap-2 flex-wrap">
                                                     {post.tags.split(',').slice(0, 3).map((tag, i) => (
                                                         <span
                                                             key={i}
@@ -207,6 +239,15 @@ export default function LabelPage() {
                                     <p className="text-gray-600 mb-6">
                                         No subtitles available for this label yet.
                                     </p>
+                                    <Link
+                                        href="/"
+                                        className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-red-600 to-yellow-600 hover:from-red-700 hover:to-yellow-700 text-white font-bold rounded-full transition-all duration-300 transform hover:scale-105 active:scale-95"
+                                    >
+                                        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                                        </svg>
+                                        Back to Home
+                                    </Link>
                                 </div>
                             </div>
                         )}
