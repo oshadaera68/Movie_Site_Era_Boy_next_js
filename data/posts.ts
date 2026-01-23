@@ -3,7 +3,7 @@ export const posts = [
         id: 1,
         slug: "shambhala-2025-sinhala-subtitles",
         title:
-            "Shambhala: A Mystical World (2025) Sinhala Subtitles : ශම්භාලා ගම්මානයේ අදුරු යක්ෂ ශාපය [සිංහල උපසිරැසි]",
+            "Shambhala: A Mystical World (2025) Sinhala Subtitles : ශම්භාලා ගම්මානයේ අදුරු යක්ෂ ශාපය [සිංහල උපසිරැසි] [TRUE WEB-DL Update]",
         tags: "Shambhala, Shambhala Sinhala subtitles, Shambhala Sinhala Subtitles 2025, Era Boy",
         excerpt: "Shambhala movie Sinhala subtitles...",
         content:
