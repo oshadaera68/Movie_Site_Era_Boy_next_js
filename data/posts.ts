@@ -1,6 +1,33 @@
 export const posts = [
     {
         id: 1,
+        slug: "shambhala-2025-sinhala-subtitles",
+        title:
+            "Shambhala: A Mystical World (2025) Sinhala Subtitles : ශම්භාලා ගම්මානයේ අදුරු යක්ෂ ශාපය [සිංහල උපසිරැසි]",
+        tags: "Shambhala, Shambhala Sinhala subtitles, Shambhala Sinhala Subtitles 2025, Era Boy",
+        excerpt: "Shambhala movie Sinhala subtitles...",
+        content:
+            "මේ කතාව පාදක වෙන්නේ ශම්භාලා කියන ගමක් ආශ්‍රයෙන්. 1980 අවුරුද්දේ ඇතුලේ ලොකු උල්කාපාතයක් ඒ ගම ලග කඩාගෙන වැටෙනවා. එවලේ ඉදන් අද්භූත දේවල් වෙන්න ගන්නවා. ඔය දේ වෙන අතරවාරයේ ශම්භාලා ගමට අමුත්තෙක් එනවා. ඒ තමයි වික්‍රම්. වික්‍රම් කියන්නේ අමු පහේ මෝඩයෙක්. (මං එහෙම කිව්වේ ඇයි කියලා ෆිල්ම් එක බැලුවම තේරෙයි.) එයා විද්‍යාව ගැන විශ්වාසය තියාගෙන ඉදපු කෙනෙක්. \n" +
+            "\n" +
+            "මේ ගමේ ඉන්න අය අමුතු විදිහට හැසිරෙනවා. සමහරි තමන් තමන්ටම රිද්දගන්නවා. ගොඩක් දෙනෙක් ප්‍රචණ්ඩකාරී විදිහට සියදිවි නසා ගන්නවා. මිත්‍යා විශ්වාසවලින් පිරිච්ච ගම්මු හිතන්නේ මොකක්හරි නපුරු දෙයක් ඇවිල්ලා කියලා. \n" +
+            "\n" +
+            "වික්‍රම් උල්කාපාතය පිලිබදව විමර්ශනය කරද්දී එක්තරා රහසක් හෙලිකරගන්නට සමත් වෙනවා. මේකේ අතරමැදි කතාව වෙන්නේ ඒ උල්කාපාතය ගැටුනට පස්සේ හෙළි වෙච්ච රහස,  ශම්භාලා ගමේ ඉතිහාසය, ඒ ගමේ දෙවියන් ගැන කතාව වගේම වික්‍රම්ගේ පිටුපස ඉදගෙන තමන්ට උදව් කරපු කෙනා හොයන එක..\n",
+        image:
+            "https://i.ytimg.com/vi/_pCu3pf_FzE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBEqDdJdA6b51V6av0wIPUd8LZ9Dg",
+        video: "WEB-DL",
+        category: "subtitles",
+        language: "Telegu",
+        downloadUrl:
+            "https://drive.google.com/uc?export=download&id=1aL1FVxlRrdEDMYuDVWFwLKk6xqFnj6mv",
+        releaseDate: "Dec 25, 2025",
+        subtitledBy: "ඕෂද එරංග (Era Boy)",
+        subtitleSite: "Baiscope.LK",
+        director: "Ugandhar Muni",
+        producer: "Rajasekhar Annabhimoju, Mahidar Reddy",
+        cast: "Aadi Saikumar, Swasika Vijay, Ravi Varma, Shiju, Archana Iyer",
+    },
+    {
+        id: 2,
         slug: "harom-hara-2024-sinhala-subtitles",
         title:
             "Harom Hara: The Revolt (2024) Sinhala Subtitles: ගම වෙනුවෙන් සටනේ… [සිංහල උපසිරැසි]",
@@ -26,7 +53,7 @@ export const posts = [
         cast: "Sudheer Babu, Malvika Sharma, Sunil",
     },
     {
-    id: 2,
+    id: 3,
     slug: "aaryan-2025-sinhala-subtitles",
     title:
       "Aaryan (2025) Sinhala Subtitles: දාර්ශනික ධාම ඝාතකයා [සිංහල උපසිරැසි] [TRUE WEB-DL Update]",
@@ -305,35 +332,9 @@ export const posts = [
     producer: "MRK Jhayaram",
     cast: "Sandeep Pradeep, Vineeth, Narain, Saurabh Sachdeva, Binu Pappu ,Biana Momin",
   },
+
   {
     id: 14,
-    slug: "shambhala-2025-sinhala-subtitles",
-    title:
-      "Shambhala: A Mystical World (2025) Sinhala Subtitles : ශම්භාලා ගම්මානයේ අදුරු යක්ෂ ශාපය [සිංහල උපසිරැසි]",
-    tags: "Shambhala, Shambhala Sinhala subtitles, Shambhala Sinhala Subtitles 2025, Era Boy",
-    excerpt: "Shambhala movie Sinhala subtitles...",
-    content:
-      "මේ කතාව පාදක වෙන්නේ ශම්භාලා කියන ගමක් ආශ්‍රයෙන්. 1980 අවුරුද්දේ ඇතුලේ ලොකු උල්කාපාතයක් ඒ ගම ලග කඩාගෙන වැටෙනවා. එවලේ ඉදන් අද්භූත දේවල් වෙන්න ගන්නවා. ඔය දේ වෙන අතරවාරයේ ශම්භාලා ගමට අමුත්තෙක් එනවා. ඒ තමයි වික්‍රම්. වික්‍රම් කියන්නේ අමු පහේ මෝඩයෙක්. (මං එහෙම කිව්වේ ඇයි කියලා ෆිල්ම් එක බැලුවම තේරෙයි.) එයා විද්‍යාව ගැන විශ්වාසය තියාගෙන ඉදපු කෙනෙක්. \n" +
-      "\n" +
-      "මේ ගමේ ඉන්න අය අමුතු විදිහට හැසිරෙනවා. සමහරි තමන් තමන්ටම රිද්දගන්නවා. ගොඩක් දෙනෙක් ප්‍රචණ්ඩකාරී විදිහට සියදිවි නසා ගන්නවා. මිත්‍යා විශ්වාසවලින් පිරිච්ච ගම්මු හිතන්නේ මොකක්හරි නපුරු දෙයක් ඇවිල්ලා කියලා. \n" +
-      "\n" +
-      "වික්‍රම් උල්කාපාතය පිලිබදව විමර්ශනය කරද්දී එක්තරා රහසක් හෙලිකරගන්නට සමත් වෙනවා. මේකේ අතරමැදි කතාව වෙන්නේ ඒ උල්කාපාතය ගැටුනට පස්සේ හෙළි වෙච්ච රහස,  ශම්භාලා ගමේ ඉතිහාසය, ඒ ගමේ දෙවියන් ගැන කතාව වගේම වික්‍රම්ගේ පිටුපස ඉදගෙන තමන්ට උදව් කරපු කෙනා හොයන එක..\n",
-    image:
-      "https://i.ytimg.com/vi/_pCu3pf_FzE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBEqDdJdA6b51V6av0wIPUd8LZ9Dg",
-    video: "CamCopy",
-    category: "subtitles",
-    language: "Telegu",
-    downloadUrl:
-      "https://drive.google.com/uc?export=download&id=11cipqSJmv3opLRSkGTyFnuaxtUXcNx5e",
-    releaseDate: "Dec 25, 2025",
-    subtitledBy: "ඕෂද එරංග (Era Boy)",
-    subtitleSite: "Baiscope.LK",
-    director: "Ugandhar Muni",
-    producer: "Rajasekhar Annabhimoju, Mahidar Reddy",
-    cast: "Aadi Saikumar, Swasika Vijay, Ravi Varma, Shiju, Archana Iyer",
-  },
-  {
-    id: 15,
     slug: "tribanadhari-barbarik-2025-sinhala-subtitles",
     title:
       "Tribanadhari Barbarik (2025) Sinhala Subtitles : මිනිබිරිය වෙනුවෙන් දඩයක්කරුවෙක් [සිංහල උපසිරැසි]",
@@ -356,7 +357,7 @@ export const posts = [
     cast: "Sathyaraj, Vasishta N. Simha, Satyam Rajesh, Udaya Bhanu",
   },
   {
-    id: 16,
+    id: 15,
     slug: "mass-jathara-2025-sinhala-subtitles",
     title:
       "Mass Jathara (2025) Sinhala Subtitles : රාජකාරිය අකුරට කරන නිලධාරියෙක් [සිංහල උපසිරැසි] [TRUE WEB-DL Update]",
@@ -385,7 +386,7 @@ export const posts = [
     cast: "Ravi Teja, Sreeleela, Naveen Chandra",
   },
   {
-    id: 17,
+    id: 16,
     slug: "hunt-2024-sinhala-subtitles",
     title:
       "Hunt (2024) Sinhala Subtitles : පලිගැනීමක්, මිනීමැරුමක්, ආත්මයක් [සිංහල උපසිරැසි]",
@@ -408,7 +409,7 @@ export const posts = [
     cast: "Bhavana, Renji Panicker, Chandhunadh, Dain Davis, Ajmal Ameer, Aditi Ravi",
   },
   {
-    id: 18,
+    id: 17,
     slug: "indra-2025-sinhala-subtitles",
     title:
       "Indra (2025) Sinhala Subtitles : දාම ඝාතකයාගේ පලිගැනීම [සිංහල උපසිරැසි]",
@@ -430,7 +431,7 @@ export const posts = [
     cast: "Vasanth Ravi, Mehreen Pirzada, Sunil, Rajkumar, Anikha Surendran",
   },
   {
-    id: 19,
+    id: 18,
     slug: "turbo-2024-sinhala-subtitles",
     title: "Turbo (2024) Sinhala Subtitles : ටර්බෝ ජෝසේ [සිංහල උපසිරැසි]",
     tags: "Turbo, Turbo Sinhala subtitles, Turbo Sinhala Subtitles 2024, era boy",
@@ -451,7 +452,7 @@ export const posts = [
     cast: "Mammootty, Raj B. Shetty, Kabir Duhan Singh, Shabareesh Varma, Anjana Jayaprakash, Sunil, Dileesh Pothan, Prasanth Alexander",
   },
   {
-    id: 20,
+    id: 19,
     slug: "striker-2023-sinhala-subtitles",
     title: "Striker (2023) Sinhala Subtitles : ආත්ම මාරුව [සිංහල උපසිරැසි]",
     tags: "Striker, Striker Sinhala subtitles, Striker Sinhala Subtitles 2023, era boy",
@@ -472,7 +473,7 @@ export const posts = [
     cast: "Justin Vijay, Vidya Pradeep, Robert, Kasthuri Shankar, Abhinayashree",
   },
   {
-    id: 21,
+    id: 20,
     slug: "pindam-2023-sinhala-subtitles",
     title:
       "Pindam (2023) Sinhala Subtitles : අවුරුදු 60ක ශාපලත් කලලයේ අභිරහස [සිංහල උපසිරැසි]",
@@ -494,7 +495,7 @@ export const posts = [
     cast: "Sriram, Kushee Ravi, Easwari Rao, Srinivas Avasarala",
   },
   {
-    id: 22,
+    id: 21,
     slug: "salaar-2023-sinhala-subtitles",
     title:
       "Salaar (2023) Sinhala Subtitles : සලාර්! [සිංහල උපසිරැසි] [TRUE WEB-DL Update]",
@@ -516,7 +517,7 @@ export const posts = [
     cast: "Prabhas, Prithviraj Sukumaran, Bobby Simha, Shruti Haasan, Jagapathi Babu, Sriya Reddy",
   },
   {
-    id: 23,
+    id: 22,
     slug: "yuva-2024-sinhala-subtitles",
     title:
       "Yuva (2024) Sinhala Subtitles : මල්ලවපොර පිටිය ජයගත් ඩිලිවරි කොල්ලා [සිංහල උපසිරැසි]",
@@ -539,7 +540,7 @@ export const posts = [
     cast: "Yuva Rajkumar, Sapthami Gowda, Achyuth Kumar, Kishore",
   },
   {
-    id: 24,
+    id: 23,
     slug: "balti-2025-sinhala-subtitles",
     title: "Balti (2025) Sinhala Subtitles : කබඩිද? මැර බලයද? [සිංහල උපසිරැසි]",
     tags: "Balti, Balti Sinhala subtitles, Balti Sinhala Subtitles 2025, era boy",
@@ -560,7 +561,7 @@ export const posts = [
     cast: "Shane Nigam, Shanthanu Bhagyaraj, Preethi Asrani, Poornima Indrajith, Selvaraghavan, Akshay Radhakrishnan, Shiva Hariharan, Jeckson Johnson",
   },
   {
-    id: 25,
+    id: 24,
     slug: "dominic-and-the-ladies-purse-2025-sinhala-subtitles",
     title:
       "Dominic and the ladies purse (2025) Sinhala Subtitles : පසුම්බියෙන් පටන් ගත් අභිරහසක් [සිංහල උපසිරැසි]",
