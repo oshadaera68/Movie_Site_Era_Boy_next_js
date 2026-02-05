@@ -1,6 +1,27 @@
 export const posts = [
-      {
+       {
     id: 1,
+    slug: "vaa-vaathiyaar-2026-sinhala-subtitles",
+    title: "Vaa Vaathiyaar (2026) Sinhala Subtitles : පුරාවෘත්තයකින් මිදී සැබෑ මිනිසෙකු වූ වීරයා [සිංහල උපසිරැසි]",
+    tags: "Vaa Vaathiyaar, Vaa Vaathiyaar Sinhala subtitles, Vaa Vaathiyaar Sinhala Subtitles 2025, Sadun Dhanushka",
+    excerpt: "Vaa Vaathiyaar movie Sinhala subtitles..",
+    content:
+      "චිත්‍රපටයේ කථා නායකයා වන රාමේෂ්වරන් හෙවත් “රාමු” උපත ලබන්නේ 1987 දෙසැම්බර් 24 වැනිදාය. ඒ අන් කිසිදු දවසක් නොව, මුළු මහත් තමිල්නාඩුවම හඬවමින් එම්.ජී. රාමචන්ද්‍රන් මෙලොව හැර ගිය දිනයයි. රාමුගේ සීයා (සත්‍යරාජ් විසින් රඟපාන), එම්.ජී.ආර්. ගේ දැඩි අනුගාමිකයෙකු වන අතර, ඔහු විශ්වාස කරන්නේ තම මුණුබුරා උපත ලැබුවේ එම මහා පුරුෂයාගේ ආත්මය රැගෙන බවයි. කුඩා කල සිටම රාමුට තමාගේම කියා පෞද්ගලික අනන්‍යතාවයක් හිමි නොවේ. ඔහු හැදී වැඩෙන්නේ “ඊළඟ එම්.ජී.ආර්.” ලෙසය. ඔහුගේ ඇඳුම් පැලඳුම්, කතා කරන විලාසය සහ සිතන අයුරු පවා සීයා විසින් පාලනය කරනු ලබන්නේ වාතියාර්ගේ ප්‍රතිරූපයට හානියක් නොවන අයුරිනි. මෙය එක් අතකින් හාස්‍යජනක වුවත්, අනෙක් අතින් දරුවෙකුගේ නිදහස අහුරන මනෝවිද්‍යාත්මක සිරගෙයක් බඳුය.",
+    image: "https://i.ytimg.com/vi/BcZJhA2baZc/maxresdefault.jpg,
+    video: "WEB-DL",
+    category: "subtitles",
+    language: "Tamil",
+    downloadUrl:
+      "https://drive.google.com/uc?export=download&id=17QraXEPmXKlSlqbQdrEsGV-TUyb4lS5X",
+    releaseDate: "Jan 14, 2026",
+    subtitledBy: "සඳුන් ධනුෂ්ක (පීටර් කුයින්)",
+    subtitleSite: "Baiscope.LK",
+    director: "Nalan Kumarasamy",
+    producer: "K. E. Gnanavel Raja",
+    cast: "Karthi, Krithi Shetty, Sathyaraj, Rajkiran",
+  },
+      {
+    id: 2,
     slug: "nari-nari-naduma-murari-2026-sinhala-subtitles",
     title: "Nari Nari Naduma Murari (2026) Sinhala Subtitles : කවදාවත් රණ්ඩු නොවූ පෙම්වතුන්ගේ කතාව [සිංහල උපසිරැසි]",
     tags: "Nari Nari Naduma Murari, Nari Nari Naduma Murari Sinhala subtitles, Nari Nari Naduma Murari Sinhala Subtitles 2025, Sadun Dhanushka",
@@ -21,7 +42,7 @@ export const posts = [
     cast: "Sharwanand, Samyuktha, Sakshi Vaidya",
   },
      {
-    id: 2,
+    id: 3,
     slug: "dual-2025-sinhala-subtitles",
     title: "Not All Movies Are the Same: Dual (2025) Sinhala Subtitles : සොම්බිකරණය වූ රැයක්.. [සිංහල උපසිරැසි]",
     tags: "Dual, Dual Sinhala subtitles, Dual Sinhala Subtitles 2025, Era Boy",
@@ -41,7 +62,7 @@ export const posts = [
     producer: "Geetha Penmatsa",
     cast: "Roshni Aravindakshan, Raghu Vardhan Kallem, Kushi Pillala, Rexon Raj,Soundarya Ramdas, Akshaj Sagiraju, Vallabhapuram Pavan Teja",
   },{
-    id: 3,
+    id: 4,
     slug: "parasakthi-2026-sinhala-subtitles",
     title: "Parasakthi (2026) Sinhala Subtitles : අද්විතීය ශක්තිය.. [සිංහල උපසිරැසි]",
     tags: "Parasakthi, Parasakthi Sinhala subtitles, Parasakthi Sinhala Subtitles 2026, Peter Barthlet",
@@ -61,7 +82,7 @@ export const posts = [
     producer: "Aakash Baskaran",
     cast: "Sivakarthikeyan, Ravi Mohan, Atharvaa, Sreeleela",
   },{
-    id: 4,
+    id: 5,
     slug: "sirai-2025-sinhala-subtitles",
     title: "Sirai (2025) Sinhala Subtitles : සිරකරුවා.. [සිංහල උපසිරැසි] [TRUE WEB-DL Update]",
     tags: "Sirai, Sirai Sinhala subtitles, Sirai Sinhala Subtitles 2025, Peter Barthlet",
@@ -82,7 +103,7 @@ export const posts = [
     cast: "Vikram Prabhu, LK Akshay Kumar, Anishma Anilkumar, Ananda Thambirajah",
   },
     {
-        id: 5,
+        id: 6,
         slug: "shambhala-2025-sinhala-subtitles",
         title:
             "Shambhala: A Mystical World (2025) Sinhala Subtitles : ශම්භාලා ගම්මානයේ අදුරු යක්ෂ ශාපය [සිංහල උපසිරැසි] [TRUE WEB-DL Update]",
@@ -109,7 +130,7 @@ export const posts = [
         cast: "Aadi Saikumar, Swasika Vijay, Ravi Varma, Shiju, Archana Iyer",
     },
     {
-        id: 6,
+        id: 7,
         slug: "harom-hara-2024-sinhala-subtitles",
         title:
             "Harom Hara: The Revolt (2024) Sinhala Subtitles: ගම වෙනුවෙන් සටනේ… [සිංහල උපසිරැසි]",
@@ -135,7 +156,7 @@ export const posts = [
         cast: "Sudheer Babu, Malvika Sharma, Sunil",
     },
     {
-    id: 7,
+    id: 8,
     slug: "aaryan-2025-sinhala-subtitles",
     title:
       "Aaryan (2025) Sinhala Subtitles: දාර්ශනික ධාම ඝාතකයා [සිංහල උපසිරැසි] [TRUE WEB-DL Update]",
@@ -157,7 +178,7 @@ export const posts = [
     cast: "Vishnu Vishal, Shraddha Srinath, Maanasa Choudhary, Selvaraghavan",
   },
   {
-    id: 8,
+    id: 9,
     slug: "kaantha-2025-sinhala-subtitles",
     title: "Kaantha (2025) Sinhala Subtitles: ගුරු ගෝල මමත්වය [සිංහල උපසිරැසි]",
     tags: "Kaantha, Kaantha Sinhala subtitles, Kaantha Sinhala Subtitles 2025, දිලිප මධුෂාන්",
@@ -179,7 +200,7 @@ export const posts = [
     cast: "Dulquer Salman, P. Samuthirakani, Bhagyashri Borse, Rana Daggubati",
   },
   {
-    id: 9,
+    id: 10,
     slug: "alappuzha-gymkhana-2025-sinhala-subtitles",
     title:
       "Alappuzha Gymkhana (2025) Sinhala Subtitles: ආලප්පුලා ක්‍රීඩා සමාජය [සිංහල උපසිරැසි] [TRUE WEB-DL Update]",
@@ -201,7 +222,7 @@ export const posts = [
     cast: "Naslen, Lukman Avaran, Ganapathi S. Poduval, Sandeep Pradeep, Franco Francis, Baby Jean, Shiva Hariharan",
   },
   {
-    id: 10,
+    id: 11,
     slug: "silent-screams-2026-sinhala-subtitles",
     title:
       "Silent Screams: The Lost Girls of Telangana (2026) Sinhala Subtitles: ආලෝකය යට සැඟවුණු අඳුරු සහ කටුක සත්‍ය [සිංහල උපසිරැසි] ",
@@ -224,7 +245,7 @@ export const posts = [
     cast: "This is a documentary film.",
   },
   {
-    id: 11,
+    id: 12,
     slug: "kalamkaval-2025-sinhala-subtitles",
     title:
       "KalamKaval (2025) Sinhala Subtitles : ගෑණු මරණ දාම ඝාතකයා [සිංහල උපසිරැසි] [TRUE WEB-DL Update]",
@@ -247,7 +268,7 @@ export const posts = [
     cast: "Mammootty, Vinayakan, Rajisha Vijayan, Shruthi Ramachandran, Gibin Gopinath, Aravind S. K.",
   },
   {
-    id: 12,
+    id: 13,
     slug: "bagheera-2024-sinhala-subtitles",
     title:
       "Bagheera (2024) Sinhala Subtitles : පොලිස්කාරයෙක්ද සුපිරි වීරයෙක්ද.. [සිංහල උපසිරැසි]",
@@ -274,7 +295,7 @@ export const posts = [
     cast: "Sriimurali, Rukmini Vasanth, Prakash Raj, Achyuth Kumar, Rangayana Raghu, Garuda Ram",
   },
   {
-    id: 13,
+    id: 14,
     slug: "andhra-king-taluka-2025-sinhala-subtitles",
     title:
       "Andhra King Taluka (2025) Sinhala Subtitles : සිනමා තරුවක් වෙනුවෙන් කැප වුනු තරුණයෙක්.. [සිංහල උපසිරැසි]",
@@ -296,7 +317,7 @@ export const posts = [
     cast: "Ram Pothineni, Upendra, Bhagyashri Borse",
   },
   {
-    id: 14,
+    id: 15,
     slug: "yellow-2025-sinhala-subtitles",
     title:
       "Yellow (2025) Sinhala Subtitles : පාට පාට හීන හොයාගෙන යන ගමනක් [සිංහල උපසිරැසි]",
@@ -318,7 +339,7 @@ export const posts = [
     cast: "Poornima Ravi, Namita Krishnamurthy, Leela Samson, Prabu Solomon, Vaibhav Murugesan",
   },
   {
-    id: 15,
+    id: 16,
     slug: "veera-dheera-sooran-part-2-2025-sinhala-subtitles",
     title:
       "Veera Dheera Sooran: Part 2 (2025) Sinhala Subtitles : කැලෑ නීතිය රජ කරන රාත්‍රියක.. [සිංහල උපසිරැසි]",
@@ -343,7 +364,7 @@ export const posts = [
   },
  
   {
-    id: 16,
+    id: 17,
     slug: "the-rajasaab-2026-sinhala-subtitles",
     title:
       "The RajaSaab (2026) Sinhala Subtitles : යකාගේ මන්දිරේ... [සිංහල උපසිරැසි]",
@@ -366,7 +387,7 @@ export const posts = [
     cast: "	Prabhas, Sanjay Dutt, Nidhhi Agerwal, Malavika Mohanan, Riddhi Kumar, Zarina Wahab",
   },
   {
-    id: 17,
+    id: 18,
     slug: "eko-2025-sinhala-subtitles",
     title:
       "Eko (2025) Sinhala Subtitles : සත්තු රැකබලාගන්නා කුරියච්චන්ගේ කතාව.. [සිංහල උපසිරැසි] [TRUE WEB-DL Update]",
@@ -396,7 +417,7 @@ export const posts = [
   },
 
   {
-    id: 18,
+    id: 19,
     slug: "tribanadhari-barbarik-2025-sinhala-subtitles",
     title:
       "Tribanadhari Barbarik (2025) Sinhala Subtitles : මිනිබිරිය වෙනුවෙන් දඩයක්කරුවෙක් [සිංහල උපසිරැසි]",
@@ -419,7 +440,7 @@ export const posts = [
     cast: "Sathyaraj, Vasishta N. Simha, Satyam Rajesh, Udaya Bhanu",
   },
   {
-    id: 19,
+    id: 20,
     slug: "mass-jathara-2025-sinhala-subtitles",
     title:
       "Mass Jathara (2025) Sinhala Subtitles : රාජකාරිය අකුරට කරන නිලධාරියෙක් [සිංහල උපසිරැසි] [TRUE WEB-DL Update]",
@@ -448,7 +469,7 @@ export const posts = [
     cast: "Ravi Teja, Sreeleela, Naveen Chandra",
   },
   {
-    id: 20,
+    id: 21,
     slug: "hunt-2024-sinhala-subtitles",
     title:
       "Hunt (2024) Sinhala Subtitles : පලිගැනීමක්, මිනීමැරුමක්, ආත්මයක් [සිංහල උපසිරැසි]",
@@ -471,7 +492,7 @@ export const posts = [
     cast: "Bhavana, Renji Panicker, Chandhunadh, Dain Davis, Ajmal Ameer, Aditi Ravi",
   },
   {
-    id: 21,
+    id: 22,
     slug: "indra-2025-sinhala-subtitles",
     title:
       "Indra (2025) Sinhala Subtitles : දාම ඝාතකයාගේ පලිගැනීම [සිංහල උපසිරැසි]",
@@ -493,7 +514,7 @@ export const posts = [
     cast: "Vasanth Ravi, Mehreen Pirzada, Sunil, Rajkumar, Anikha Surendran",
   },
   {
-    id: 22,
+    id: 23,
     slug: "turbo-2024-sinhala-subtitles",
     title: "Turbo (2024) Sinhala Subtitles : ටර්බෝ ජෝසේ [සිංහල උපසිරැසි]",
     tags: "Turbo, Turbo Sinhala subtitles, Turbo Sinhala Subtitles 2024, era boy",
@@ -514,7 +535,7 @@ export const posts = [
     cast: "Mammootty, Raj B. Shetty, Kabir Duhan Singh, Shabareesh Varma, Anjana Jayaprakash, Sunil, Dileesh Pothan, Prasanth Alexander",
   },
   {
-    id: 23,
+    id: 24,
     slug: "striker-2023-sinhala-subtitles",
     title: "Striker (2023) Sinhala Subtitles : ආත්ම මාරුව [සිංහල උපසිරැසි]",
     tags: "Striker, Striker Sinhala subtitles, Striker Sinhala Subtitles 2023, era boy",
@@ -535,7 +556,7 @@ export const posts = [
     cast: "Justin Vijay, Vidya Pradeep, Robert, Kasthuri Shankar, Abhinayashree",
   },
   {
-    id: 24,
+    id: 25,
     slug: "pindam-2023-sinhala-subtitles",
     title:
       "Pindam (2023) Sinhala Subtitles : අවුරුදු 60ක ශාපලත් කලලයේ අභිරහස [සිංහල උපසිරැසි]",
@@ -557,7 +578,7 @@ export const posts = [
     cast: "Sriram, Kushee Ravi, Easwari Rao, Srinivas Avasarala",
   },
   {
-    id: 25,
+    id: 26,
     slug: "salaar-2023-sinhala-subtitles",
     title:
       "Salaar (2023) Sinhala Subtitles : සලාර්! [සිංහල උපසිරැසි] [TRUE WEB-DL Update]",
@@ -579,7 +600,7 @@ export const posts = [
     cast: "Prabhas, Prithviraj Sukumaran, Bobby Simha, Shruti Haasan, Jagapathi Babu, Sriya Reddy",
   },
   {
-    id: 26,
+    id: 27,
     slug: "yuva-2024-sinhala-subtitles",
     title:
       "Yuva (2024) Sinhala Subtitles : මල්ලවපොර පිටිය ජයගත් ඩිලිවරි කොල්ලා [සිංහල උපසිරැසි]",
@@ -602,7 +623,7 @@ export const posts = [
     cast: "Yuva Rajkumar, Sapthami Gowda, Achyuth Kumar, Kishore",
   },
   {
-    id: 27,
+    id: 28,
     slug: "balti-2025-sinhala-subtitles",
     title: "Balti (2025) Sinhala Subtitles : කබඩිද? මැර බලයද? [සිංහල උපසිරැසි]",
     tags: "Balti, Balti Sinhala subtitles, Balti Sinhala Subtitles 2025, era boy",
@@ -623,7 +644,7 @@ export const posts = [
     cast: "Shane Nigam, Shanthanu Bhagyaraj, Preethi Asrani, Poornima Indrajith, Selvaraghavan, Akshay Radhakrishnan, Shiva Hariharan, Jeckson Johnson",
   },
   {
-    id: 28,
+    id: 29,
     slug: "dominic-and-the-ladies-purse-2025-sinhala-subtitles",
     title:
       "Dominic and the ladies purse (2025) Sinhala Subtitles : පසුම්බියෙන් පටන් ගත් අභිරහසක් [සිංහල උපසිරැසි]",
